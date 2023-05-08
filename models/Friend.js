@@ -1,8 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-class ProductTag extends Model {}
+class Friend extends Model {}
 
-ProductTag.init(
+Friend.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,18 +11,20 @@ ProductTag.init(
       autoIncrement: true,
     },
 
-    product_id: {
+    a_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'product',
+        model: 'user',
+        as: 'a',
         key: 'id',
       },
     },
 
-    tag_id: {
+    b_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'tag',
+        model: 'user',
+        as: 'b',
         key: 'id',
       },
     },
@@ -32,8 +34,8 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_tag',
+    modelName: 'friend',
   }
 );
 
-module.exports = ProductTag;
+module.exports = Friend;
