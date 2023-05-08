@@ -3,12 +3,11 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
-const express = require('express');
-const bodyParser = require('body-parser');
-const request = require('request');
+// const bodyParser = require('body-parser');
+// const request = require('request');
 
 const app = express();
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: true }));
 const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create();

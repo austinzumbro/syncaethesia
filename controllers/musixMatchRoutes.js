@@ -1,18 +1,28 @@
 const router = require('express').Router();
 const dotenv = require('dotenv');
+// const fetch = require('node-fetch');
+
+const Musixmatch = require('musixmatch');
+const init = {
+  apikey: process.env.MUSIXMATCH_KEY,
+  baseURL: 'http://api.musixmatch.com/ws/1.1/',
+  corsURL: '',
+  format: 'json',
+};
+const msx = Musixmatch(init);
 
 router.get('/', async (req, res) => {
   try {
-    const apiKey = process.env.MUSIXMATCH_KEY;
-    const trackName = 'Revive';
-    const artistName = 'LIONE';
-
-    const apiUrl = `https://api.musixmatch.com/ws/1.1/matcher.lyrics.get?format=json&q_track=${trackName}&q_artist=${artistName}&apikey=${apiKey}`;
-
-    const response = await fetch(apiUrl);
-
+    const response = await msx.chartArtists({
+      country: 'us',
+      page: 1,
+      page_size: 3,
+    });
+    console.log(response.artist_list);
     console.log(response);
+    res.render('homepage');
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
