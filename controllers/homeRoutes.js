@@ -37,4 +37,8 @@ router.get('/mmtest', (req, res) => {
   res.render('mmtest');
 });
 
+router.get('/spotify-test', (req,res) => {
+  res.render('homepage', { layout: 'spotify-test' });
+});
+
 module.exports = router;
