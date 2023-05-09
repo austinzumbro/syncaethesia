@@ -12,10 +12,32 @@
     />
   </head>
 
-  <body>
-    <header></header>
+  <body class="bg-gradient-to-r from-fuschia-900 from 100% via-violet-500 via-70% to-indigo-400 to-30%">
+    <header>
+      <div class="flex flex-row">
+        <div class="basis-1/4 flex flex-row">
+          <div class="basis-1/4">
+            <button class="rounded-full bg-sky-600 hover:bg-sky-300">Friends</button>
+          </div>
+          <div class="basis-1/4">
+            <a href="/dashboard"><button class="rounded-full bg-sky-600 hover:bg-sky-300">Dashboard</button></a>
+          </div>
+        </div>
+        <div class="basis-1/2">
+          <h1 class="text-center text-xl font-bold text-gradient-to-r from-amber-700">SYNCaesthesia</h1>
+        </div>
+        <div class="basis-1/4 flex flex-row">
+          <div class="basis-1/4">
+            <a href="/homepage"><button class="rounded-full bg-sky-600 hover:bg-sky-300">Logout</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
     {{{body}}}
+    <script src="../public/js/css/input.css"></script>
   </body>
+  <footer>
+  </footer>
 </html>
 
 {{! <body onload="onPageLoad()">
