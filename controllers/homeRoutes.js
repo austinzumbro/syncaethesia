@@ -1,9 +1,15 @@
 const router = require('express').Router();
 const { Playlist, User } = require('../models');
+const dotenv = require('dotenv');
 // const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
-  res.render('homepage');
+  const authorizeURL = process.env.AUTHORIZE_URL;
+  res.render('homepage', { authorizeURL });
+});
+
+router.get('/playlists', async (req, res) => {
+  res.render('playlist');
 });
 
 router.get('/dashboard', async (req, res) => {
@@ -25,6 +31,10 @@ router.get('/mmtest', (req, res) => {
 
 router.get('/spotify-test', (req, res) => {
   res.render('homepage', { layout: 'spotify-test' });
+});
+
+router.get('/song-search', (req, res) => {
+  res.render('song-search');
 });
 
 module.exports = router;
