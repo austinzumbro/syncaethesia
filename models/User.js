@@ -14,6 +14,12 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
+      autoIncrement: true,
+    },
+    spotify_id: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
     },
     // Username
     display_name: {
@@ -23,7 +29,7 @@ User.init(
     // Email
     email: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
   },
   {
