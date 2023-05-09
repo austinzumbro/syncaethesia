@@ -86,7 +86,7 @@ const getMe = async () => {
 const getUserPlaylists = async (userId) => {
   //usually takes in string parameter to search by user but i put id to see more specific search might not work
   try {
-    const { body } = await spotifyApi.getUserPlaylists(userId);
+    const { body } = await spotifyApi.getUserPlaylists(id);
     console.log('Retrieved playlists', body);
     return body;
   } catch (err) {
