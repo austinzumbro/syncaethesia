@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 
 router.get('/', async (req, res) => {
   const authorizeURL = process.env.AUTHORIZE_URL;
-  res.render('homepage', { authorizeURL });
+  res.render('title', { authorizeURL, layout: 'title-screen' });
 });
 
 router.get('/playlists', async (req, res) => {
