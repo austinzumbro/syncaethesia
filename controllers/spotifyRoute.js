@@ -65,34 +65,4 @@ router.get('/callback', spotifyAuth, async (req, res) => {
   //('/dashboard');
 });
 
-// methods for grabbing spotify info
-// still need to call these somewhere
-
-// get current logged in users info
-const getMe = async () => {
-  try {
-    const {
-      body: { userId },
-    } = await spotifyApi.getMe();
-    console.log('Some information about the authenticated user', userId);
-    return userId; // return the user id for later reference
-  } catch (err) {
-    console.log('Something went wrong!', err);
-    throw err; // re-throw the error to the calling code
-  }
-};
-
-// Get a user's playlists
-const getUserPlaylists = async (userId) => {
-  //usually takes in string parameter to search by user but i put id to see more specific search might not work
-  try {
-    const { body } = await spotifyApi.getUserPlaylists(id);
-    console.log('Retrieved playlists', body);
-    return body;
-  } catch (err) {
-    console.log('Something went wrong!', err);
-    throw err;
-  }
-};
-
 module.exports = router;
