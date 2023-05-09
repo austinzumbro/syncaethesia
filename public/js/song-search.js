@@ -13,9 +13,7 @@ const runSearch = async (event) => {
     headers: { 'Content-Type': 'application/json' },
   });
 
-  const data = JSON.parse(response);
-
-  console.log(data);
+  console.log(response);
 };
 
 searchForm.addEventListener('submit', runSearch);

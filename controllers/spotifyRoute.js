@@ -61,7 +61,7 @@ router.get('/callback', spotifyAuth, async (req, res) => {
     console.log('User exists.');
   }
 
-  res.redirect('/');
+  res.redirect('/dashboard');
   //('/dashboard');
 });
 
