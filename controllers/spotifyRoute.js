@@ -2,6 +2,8 @@ const SpotifyWebApi = require('spotify-web-api-node');
 const dotenv = require('dotenv');
 const router = require('express').Router();
 
+const { User } = require('../models');
+
 // credentials are optional
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.SPOT_CLIENT_ID,
@@ -45,7 +47,58 @@ router.get('/callback', async (req, res) => {
   spotifyApi.setAccessToken(data.body['access_token']);
   spotifyApi.setRefreshToken(data.body['refresh_token']);
 
+  /*
+  // grab spotify info
+  const { body: { id , display_name, email} } = await spotifyApi.getMe();
+  const userExists = await User.findByPk(userId);
+  if(userExists){
+    res.redirect('/dashboard');
+    return;
+  } 
+
+  //create new user in database
+  const newUser = User.create({ 
+    id: id,
+    display_name: display_name,
+    email: email
+  });
+
+  
+  */
   res.redirect('/dashboard');
 });
+
+// methods for grabbing spotify info
+// still need to call these somewhere
+
+// get current logged in users info
+const getMe = async () => {
+  try {
+    const { body: { userId } } = await spotifyApi.getMe();
+    console.log('Some information about the authenticated user', userId);
+    return userId; // return the user id for later reference
+  } catch (err) {
+    console.log('Something went wrong!', err);
+    throw err; // re-throw the error to the calling code
+  }
+}
+
+// Get a user's playlists
+const getUserPlaylists = async (userId) => { //usually takes in string parameter to search by user but i put id to see more specific search might not work
+  try {
+    const { body } = await spotifyApi.getUserPlaylists(userId);
+    console.log('Retrieved playlists', body);
+    return body;
+  } catch (err) {
+    console.log('Something went wrong!', err);
+    throw err;
+  }
+};
+
+
+
+
+
+
 
 module.exports = router;
