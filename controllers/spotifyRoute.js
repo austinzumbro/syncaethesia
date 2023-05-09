@@ -47,25 +47,26 @@ router.get('/callback', async (req, res) => {
   spotifyApi.setAccessToken(data.body['access_token']);
   spotifyApi.setRefreshToken(data.body['refresh_token']);
 
-  /*
-  // grab spotify info
-  const { body: { id , display_name, email} } = await spotifyApi.getMe();
-  const userExists = await User.findByPk(userId);
-  if(userExists){
-    res.redirect('/dashboard');
-    return;
-  } 
-
-  //create new user in database
-  const newUser = User.create({ 
-    id: id,
-    display_name: display_name,
-    email: email
-  });
-
   
-  */
-  res.redirect('/dashboard');
+  // grab spotify info
+  try {
+    // grab spotify info
+    const { body: { id, display_name, email } } = await getMe();
+
+    // create new user in database
+    const newUser = await User.create({ 
+      id: id,
+      display_name: display_name,
+      email: email
+    });
+
+    console.log('New user created:', newUser);
+
+    res.redirect('/dashboard');
+  } catch (err) {
+    console.log('Something went wrong!', err);
+    res.status(500).send('Error creating new user');
+  }
 });
 
 // methods for grabbing spotify info
@@ -74,9 +75,9 @@ router.get('/callback', async (req, res) => {
 // get current logged in users info
 const getMe = async () => {
   try {
-    const { body: { userId } } = await spotifyApi.getMe();
-    console.log('Some information about the authenticated user', userId);
-    return userId; // return the user id for later reference
+    const { body: { id, display_name, email } } = await spotifyApi.getMe();
+    console.log('Some information about the authenticated user', id);
+    return { id, display_name, email }; // return the user info for later reference
   } catch (err) {
     console.log('Something went wrong!', err);
     throw err; // re-throw the error to the calling code
@@ -84,9 +85,9 @@ const getMe = async () => {
 }
 
 // Get a user's playlists
-const getUserPlaylists = async (userId) => { //usually takes in string parameter to search by user but i put id to see more specific search might not work
+const getUserPlaylists = async (useridId) => { //usually takes in string parameter to search by user but i put id to see more specific search might not work
   try {
-    const { body } = await spotifyApi.getUserPlaylists(userId);
+    const { body } = await spotifyApi.getUserPlaylists(id);
     console.log('Retrieved playlists', body);
     return body;
   } catch (err) {
