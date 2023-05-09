@@ -6,6 +6,6 @@ const musixMatchRoutes = require('./musixMatchRoutes');
 
 router.use('/', homeRoutes);
 // router.use('/api', apiRoutes);
-router.use('/mm', musixMatchRoutes);
+router.use('/musixmatch', musixMatchRoutes);
 
 module.exports = router;
