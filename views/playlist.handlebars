@@ -1,15 +1,47 @@
-<div class="flex flex-wrap -mb-4">
-<div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="our song img">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">{{song_name}}</div>
-    <p class="text-gray-700 text-base">
-      description maybe? could create the button here
-    </p>
-  </div>
-  <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{{song_id}} or m</span>
-  </div>
+<div class="container my-12 mx-auto px-4 md:px-12">
+    <div class="flex flex-wrap -mx-1 lg:-mx-4">
+
+        {{#each song}}
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="{{imageSource}}">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-black" href="#">
+                            {{title}}
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        {{songRunTime}}
+                    </p>
+                </header>
+
+                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
+                    <a class="flex items-center no-underline hover:underline text-black" href="#">
+                        <img alt="Placeholder" class="block rounded-full" src="{{songImage}}">
+                        <p class="ml-2 text-sm">
+                            {{artist}}
+                        </p>
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+        
+
+        </div>
+        <!-- END Column -->
+        {{/each}}
+
+    </div>
 </div>
-</div>
-    <script src="/public/js/playlist.js"></script>
