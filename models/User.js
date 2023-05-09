@@ -14,30 +14,20 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
     },
     // Username
-    username: {
+    display_name: {
       type: DataTypes.STRING,
-      allowNull: false,
-      // Username cannot already exist in the database
-      unique: true,
-      // Username must be 2 or more characters in length
-      validate: {
-        len: [2],
-      },
+      allowNull: true,
     },
-    // Password
-    password: {
+    // Email
+    email: {
       type: DataTypes.STRING,
-      allowNull: false,
-      // Password must be at least 8 characters
-      validate: {
-        len: [8],
-      },
+      allowNull: true
     },
   },
   {
+    /*
     hooks: {
       // Modify the input before creation
       beforeCreate: async (newUserData) => {
@@ -54,6 +44,7 @@ User.init(
         return updatedUserData;
       },
     },
+    */
     sequelize,
     freezeTableName: true,
     underscored: true,
