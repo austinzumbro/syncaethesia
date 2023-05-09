@@ -1,7 +1,5 @@
 const router = require('express').Router();
 const dotenv = require('dotenv');
-// const fetch = require('node-fetch');
-
 const Musixmatch = require('musixmatch');
 const init = {
   apikey: process.env.MUSIXMATCH_KEY,
@@ -11,16 +9,15 @@ const init = {
 };
 const msx = Musixmatch(init);
 
-router.get('/', async (req, res) => {
+router.post('/', async (req, res) => {
+  console.log(req.body);
   try {
-    const response = await msx.chartArtists({
-      country: 'us',
-      page: 1,
-      page_size: 3,
+    const response = await msx.matcherLyrics({
+      q_track: req.body.q_track,
+      q_artist: req.body.q_artist,
     });
-    console.log(response.artist_list);
     console.log(response);
-    res.render('homepage');
+    res.status(200).json(response);
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
