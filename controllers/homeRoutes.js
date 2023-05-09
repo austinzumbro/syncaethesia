@@ -6,6 +6,10 @@ router.get('/', async (req, res) => {
   res.render('homepage');
 });
 
+router.get('/playlists', async (req, res) => {
+  res.render('playlist');
+});
+
 router.get('/dashboard', async (req, res) => {
   res.render('dashboard');
 });
