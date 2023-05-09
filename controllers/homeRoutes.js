@@ -39,22 +39,8 @@ router.get('/mmtest', (req, res) => {
   res.render('mmtest');
 });
 
-router.get('/callback', async (req, res) => {
-  const code = req.query.code;
-  const data = await spotifyApi.authorizationCodeGrant(code);
-
-  console.log('The token expires in ' + data.body['expires_in']);
-  console.log('The access token is ' + data.body['access_token']);
-  console.log('The refresh token is ' + data.body['refresh_token']);
-
-  spotifyApi.setAccessToken(data.body['access_token']);
-  spotifyApi.setRefreshToken(data.body['refresh_token']);
-
-
-
-  res.redirect('/');
-}
+router.get('/spotify-test', (req, res) => {
+  res.render('homepage', { layout: 'spotify-test' });
+});
 
 module.exports = router;
-
-
