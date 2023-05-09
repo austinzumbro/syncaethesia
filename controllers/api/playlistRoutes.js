@@ -24,7 +24,7 @@ router.delete('/:id', withAuth, async (req, res) => {
       },
     });
 
-    if (!plyalistData) {
+    if (!playlistData) {
       res.status(404).json({ message: 'No playlist found with this id!' });
       return;
     }
@@ -34,5 +34,6 @@ router.delete('/:id', withAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 
 module.exports = router;
