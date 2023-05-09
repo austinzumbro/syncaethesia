@@ -1,10 +1,28 @@
 const router = require('express').Router();
-const spotifyApi = require('../../config/spotify-config');
-const { Playlist } = require('../../models');
+const { Playlist, Song } = require('../../models');
+const { spotifyAuth } = require('../../utils/spotify-auth');
 
-router.get('/user');
+router.get('/', spotifyAuth, async (req, res) => {
+  try {
+    const playlistData = await Playlist.findAll({
+      where: {
+        user_id: req.session.user_id
+      },
+      include: [
+        {
+          model: Song,
+          attributes: ['id', 'title', 'artist', 'album', 'genre']
+        }
+      ]
+    });
+    const playlists = playlistData.map((playlist) => playlist.get({ plain: true }));
+    res.status(200).json(playlists);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
-router.post('/', async (req, res) => {
+router.post('/', spotifyAuth, async (req, res) => {
   try {
     const newPlaylist = await Playlist.create({
       ...req.body,
@@ -17,7 +35,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.delete('/:id', withAuth, async (req, res) => {
+router.delete('/:id', spotifyAuth, async (req, res) => {
   try {
     const playlistData = await Playlist.destroy({
       where: {

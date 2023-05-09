@@ -65,4 +65,21 @@ router.get('/callback', spotifyAuth, async (req, res) => {
   //('/dashboard');
 });
 
+router.get('/playlists', spotifyAuth, async (req, res) => {
+  try {
+    const playlistsData = await spotifyApi.getUserPlaylists(); // how to insert userID here
+    const playlists = playlistsData.body.items.map((playlist) => {
+      return {
+        date_created: new Date(),
+        song_id: playlist.id,
+        user_id: req.session.user_id,
+      };
+    });
+    const newPlaylists = await Playlist.bulkCreate(playlists);
+    res.status(200).json(newPlaylists);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;
