@@ -1,8 +1,10 @@
 const router = require('express').Router();
+const spotifyApi = require('../../config/spotify-config');
 const { Playlist } = require('../../models');
-const withAuth = require('../../utils/auth');
 
-router.post('/', withAuth, async (req, res) => {
+router.get('/user');
+
+router.post('/', async (req, res) => {
   try {
     const newPlaylist = await Playlist.create({
       ...req.body,
