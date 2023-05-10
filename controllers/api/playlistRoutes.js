@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Playlist, Song } = require('../../models');
+const { Playlist, Song, PlaylistSong } = require('../../models');
 const { spotifyAuth } = require('../../utils/spotify-auth');
 const spotifyApi = require('../../config/spotify-config');
 
@@ -47,10 +47,19 @@ router.post('/', async (req, res) => {
             year_released: track.track.album?.release_date?.split('-')[0],
             // Include any other relevant fields for the Song model
           }));
+          
+          const playList_savedTracks = tracks.body.items.map((track) => ({
+            song_spotify_id: track.track.spotify_id,
+            playlist_spotify_id: playlist.id
+          }));
+          // console.log(tracks);
 
           // Bulk create the songs and associate them with the playlist
           await Song.bulkCreate(tracks);
-          await newPlaylist.setSongs(tracks);
+
+          await PlaylistSong.bulkCreate(playList_savedTracks);
+
+          // await newPlaylist.setSongs(tracks);
 
           // Return the newly created playlist
           return newPlaylist;
