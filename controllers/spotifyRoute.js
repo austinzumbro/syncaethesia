@@ -42,7 +42,6 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/callback', spotifyAuth, async (req, res) => {
-  
   const currentUser = await spotifyApi.getMe();
 
   console.log(currentUser);
@@ -53,18 +52,21 @@ router.get('/callback', spotifyAuth, async (req, res) => {
     },
   });
 
+  let userId;
+
   if (!userExists) {
     console.log('User does not exist.');
-
     const newUser = await User.create({
       spotify_id: currentUser.body.id,
       display_name: currentUser.body.display_name,
       email: currentUser.body.email,
     });
-
     console.log(newUser);
+    userId = newUser.dataValues.id;
   } else {
-    console.log('User exists.');
+    console.log('User does exist.');
+    console.log(userExists.dataValues.id);
+    userId = userExists.dataValues.id;
   }
 
   console.log(currentUser.body.id);
@@ -72,7 +74,8 @@ router.get('/callback', spotifyAuth, async (req, res) => {
   req.session.save(() => {
     req.session.spotAuthTok = spotifyApi._credentials.accessToken;
     req.session.spotRefTok = spotifyApi._credentials.refreshToken;
-    req.session.userId = currentUser.body.id;
+    req.session.spotifyId = currentUser.body.id;
+    req.session.userId = userId;
   });
 
   res.redirect(`/dashboard/${currentUser.body.id}`);
@@ -85,7 +88,7 @@ router.get('/playlists', spotifyAuth, async (req, res) => {
       return {
         date_created: new Date(),
         song_id: playlist.id,
-        user_id: req.session.user_id,
+        user_id: req.session.userId,
       };
     });
     const newPlaylists = await Playlist.bulkCreate(playlists);
