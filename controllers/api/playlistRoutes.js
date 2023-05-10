@@ -42,18 +42,18 @@ router.post('/', async (req, res) => {
         user_id: req.session.userId,
       };
     });
-playlists.forEach(async(playlist) => {
-    const playlistExist = await Playlist.findOne({
-      where: {
-        spotify_id: playlist.spotify_id,
+    playlists.forEach(async (playlist) => {
+      const playlistExist = await Playlist.findOne({
+        where: {
+          spotify_id: playlist.spotify_id,
+        },
+      });
+      if (!playlistExist) {
+        const newPlaylist = await Playlist.create({
+          playlist,
+        });
       }
     });
-    if(!playlistExist){
-      const newPlaylist = await Playlist.create({
-        playlist,
-      })
-    }
-})
     // const newPlaylists = await Playlist.bulkCreate(playlists);
     res.status(200).json(newPlaylists);
     // need to render homepage if successful

@@ -67,6 +67,8 @@ router.get('/callback', spotifyAuth, async (req, res) => {
   console.log(currentUser.body.id);
 
   req.session.save(() => {
+    req.session.spotAuthTok = spotifyApi._credentials.accessToken;
+    req.session.spotRefTok = spotifyApi._credentials.refreshToken;
     req.session.userId = currentUser.body.id;
   });
 
