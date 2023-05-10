@@ -42,15 +42,18 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/callback', spotifyAuth, async (req, res) => {
+  
   const currentUser = await spotifyApi.getMe();
 
-  const userExists = await User.findAll({
+  console.log(currentUser);
+
+  const userExists = await User.findOne({
     where: {
       spotify_id: currentUser.body.id,
     },
   });
 
-  if (!userExists[0]) {
+  if (!userExists) {
     console.log('User does not exist.');
 
     const newUser = await User.create({
