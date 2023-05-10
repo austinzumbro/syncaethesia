@@ -3,22 +3,23 @@ const { Playlist, User } = require('../models');
 const dotenv = require('dotenv');
 // const withAuth = require('../utils/auth');
 
+const authorizeURL = process.env.AUTHORIZE_URL;
+
 router.get('/', async (req, res) => {
-  const authorizeURL = process.env.AUTHORIZE_URL;
   res.render('title', { authorizeURL, layout: 'title-screen' });
 });
 
 router.get('/playlists', async (req, res) => {
-  res.render('playlist');
+  res.render('playlist', { authorizeURL });
 });
 
 router.get('/dashboard', async (req, res) => {
-  res.render('dashboard');
+  res.render('dashboard', { authorizeURL });
 });
 
 router.get('/login', (req, res) => {
   if (req.session.logged_in) {
-    res.redirect('/dashboard');
+    res.redirect('/dashboard', { authorizeURL });
     return;
   }
 
@@ -34,7 +35,7 @@ router.get('/spotify-test', (req, res) => {
 });
 
 router.get('/song-search', (req, res) => {
-  res.render('song-search');
+  res.render('song-search', { authorizeURL });
 });
 
 module.exports = router;
