@@ -1,8 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
-class Friend extends Model {}
+const bcrypt = require('bcrypt');
+const sequelize = require('../config/connection.js');
 
-Friend.init(
+class UserPlaylist extends Model {}
+
+UserPlaylist.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -10,32 +12,29 @@ Friend.init(
       primaryKey: true,
       autoIncrement: true,
     },
-
     user_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'user',
-        as: 'user',
         key: 'id',
       },
     },
-
-    friend_id: {
+    playlist_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
-        model: 'user',
-        as: 'friend',
+        model: 'playlist',
         key: 'id',
       },
     },
   },
   {
     sequelize,
-    timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'friend',
+    modelName: 'user_playlist',
   }
 );
 
-module.exports = Friend;
+module.exports = UserPlaylist;
