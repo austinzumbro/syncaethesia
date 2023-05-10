@@ -1,7 +1,11 @@
 const router = require('express').Router();
 const { Song } = require('../../models');
 const spotifyApi = require('../../config/spotify-config');
-// const { spotifyAuth, sessionAuth } = require('../../spotify-auth');
+const {
+  spotifyAuth,
+  sessionAuth,
+  checkSpotAuth,
+} = require('../../utils/spotify-auth');
 /* const withAuth = require('../../utils/auth'); */
 
 // Save new song to the database
@@ -31,17 +35,13 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.post('/search', async (req, res) => {
+router.post('/search', sessionAuth, checkSpotAuth, async (req, res) => {
   const songList = await spotifyApi.searchTracks(
     `track:${req.body.track} artist:${req.body.artist}`
   );
 
-  console.log('I got ' + songList.body.tracks.total + ' results!');
-
   // Go through the first page of results
   const firstPage = songList.body.tracks.items;
-
-  console.log(firstPage);
 
   let returnArray = [];
 

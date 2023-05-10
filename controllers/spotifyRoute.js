@@ -4,7 +4,11 @@ const router = require('express').Router();
 
 const { User } = require('../models');
 const spotifyApi = require('../config/spotify-config');
-const { spotifyAuth, sessionAuth } = require('../utils/spotify-auth');
+const {
+  spotifyAuth,
+  sessionAuth,
+  checkSpotAuth,
+} = require('../utils/spotify-auth');
 
 // credentials are optional
 // const spotifyApi = new SpotifyWebApi({
@@ -32,13 +36,12 @@ const authorizeURL = process.env.AUTHORIZE_URL;
 router.get('/', async (req, res) => {
   try {
     res.render('homepage', { authorizeURL });
-    console.log(authorizeURL);
   } catch (err) {
     res.status(400).json(err);
   }
 });
 
-router.get('/callback', sessionAuth, spotifyAuth, async (req, res) => {
+router.get('/callback', spotifyAuth, async (req, res) => {
   const currentUser = await spotifyApi.getMe();
 
   const userExists = await User.findAll({
@@ -61,8 +64,13 @@ router.get('/callback', sessionAuth, spotifyAuth, async (req, res) => {
     console.log('User exists.');
   }
 
-  res.redirect('/dashboard');
-  //('/dashboard');
+  console.log(currentUser.body.id);
+
+  req.session.save(() => {
+    req.session.userId = currentUser.body.id;
+  });
+
+  res.redirect(`/dashboard/${currentUser.body.id}`);
 });
 
 router.get('/playlists', spotifyAuth, async (req, res) => {
