@@ -3,17 +3,20 @@ const searchForm = document.querySelector('#song-search-form');
 const runSearch = async (event) => {
   event.preventDefault();
 
-  const trackName = document.querySelector('input[name=track-title]').value;
+  const trackName = document.querySelector('input[name=title]').value;
+  const artistName = document.querySelector('input[name=artist]').value;
 
-  const response = await fetch('/api/songs/search', {
-    method: 'POST',
-    body: JSON.stringify({
-      track: trackName,
-    }),
-    headers: { 'Content-Type': 'application/json' },
-  });
+  console.log(trackName, artistName);
 
-  console.log(response);
+  // const response = await fetch('/api/songs/search', {
+  //   method: 'POST',
+  //   body: JSON.stringify({
+  //     track: trackName,
+  //   }),
+  //   headers: { 'Content-Type': 'application/json' },
+  // });
+
+  // console.log(response);
 };
 
 searchForm.addEventListener('submit', runSearch);
