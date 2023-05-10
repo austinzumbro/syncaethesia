@@ -1,6 +1,8 @@
 const router = require('express').Router();
 const dotenv = require('dotenv');
 const Musixmatch = require('musixmatch');
+const quickstart = require('../utils/cloud-test');
+
 const init = {
   apikey: process.env.MUSIXMATCH_KEY,
   baseURL: 'http://api.musixmatch.com/ws/1.1/',
@@ -17,6 +19,11 @@ router.post('/', async (req, res) => {
       q_artist: req.body.q_artist,
     });
     console.log(response);
+
+    const results = await quickstart(response.lyrics.lyrics_body);
+
+    console.log(results);
+
     res.status(200).json(response);
   } catch (err) {
     console.log(err);

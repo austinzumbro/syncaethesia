@@ -38,14 +38,12 @@ router.get(
         ],
       });
 
-      console.log(currentUser);
       req.session.save(() => {
-        req.session.userId = currentUser.spotify_id;
+        req.session.userId = currentUser.id;
+        req.session.spotifyId = currentUser.spotify_id;
         req.session.spotAuthTok = spotifyApi._credentials.accessToken;
         req.session.spotRefTok = spotifyApi._credentials.refreshToken;
       });
-
-      console.log(req.session.userId);
 
       res.render('dashboard', {
         user: currentUser,
