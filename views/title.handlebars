@@ -1,6 +1,42 @@
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
 <body
-  class='bg-gradient-to-r from-fuchsia-800 from-20% via-violet-800 via-50% to-indigo-800 to-80% grid h-screen place-items-center cursor-pointer'
+  class='bg-gradient-to-r from-fuchsia-800 from-20% via-violet-800 via-50% to-indigo-800 to-80% grid h-screen place-items-center cursor-pointer handlebar'
   onclick="location.href='{{authorizeURL}}';"
 >
-  <h1 class='text-9xl text-center mx-auto text-amber-800'>SYNCaesthesia</h1>
+  <h1 class='text-9xl text-center mx-auto text-amber-800 header'>SYNCaesthesia</h1>
+  <script>
+  // Select the elements
+  const handlebar = document.querySelector('.handlebar');
+  const header = document.querySelector('.header');
+
+  // Define the animation properties
+  const animation = anime.timeline({
+    duration: 700,
+    easing: 'easeOutExpo',
+  });
+
+  // Set initial state
+  animation.add({
+    targets: handlebar,
+    translateX: -300,
+    opacity: 0,
+  });
+
+  // Animate handlebar and header
+  animation.add({
+    targets: handlebar,
+    translateX: 0,
+    opacity: 1,
+  }).add({
+    targets: header,
+    translateY: [-100, 0],
+    opacity: [0, 1],
+  });
+
+  // Start the animation
+  animation.play();
+</script>
+
 </body>
