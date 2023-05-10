@@ -5,8 +5,8 @@ const Friend = require('./Friend');
 const UserPlaylist = require('./UserPlaylist');
 const PlaylistSong = require('./PlaylistSong');
 
-User.belongsToMany(Playlist, { through: UserPlaylist });
-Playlist.belongsToMany(User, { through: UserPlaylist });
+User.hasMany(Playlist, { foreignKey: 'user_id', onDelete: 'CASCADE' });
+Playlist.belongsTo(User, { foreignKey: 'user_id' });
 
 Playlist.belongsToMany(Song, { through: PlaylistSong });
 Song.belongsToMany(Playlist, { through: PlaylistSong });
