@@ -14,6 +14,11 @@ const importPlaylists = async () => {
     headers: { 'Content-Type': 'application/json' },
   });
 
+  if(response.ok){
+    document.location.reload();
+  } else {
+    alert('Playlist Import Failed!');
+  }
   const data = await response.json();
   const dataReadable = JSON.parse(data);
   console.log(dataReadable);
