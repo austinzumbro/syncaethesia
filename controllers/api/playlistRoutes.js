@@ -12,28 +12,9 @@ router.post('/', async (req, res) => {
     console.log(req.session.spotAuthTok);
     console.log(spotifyApi._credentials.accessToken);
     const playlistData = await spotifyApi.getUserPlaylists(req.session.userId);
-    console.log(playlistData.body.items.length);
-
-    // for (let i = 0; i < playlistData.body.items.length; i++) {
-    //   console.log(playlistData.body.items[i]);
-    // }
-
-    // console.log(playlistData.body.items);
-    // const playlists = [];
-    // playlistData.body.items.forEach((playlist) => {
-    //   let newPlaylist = {
-    //     spotify_id: playlist.id,
-    //     playlist_img_url: playlist.images[0].url,
-    //     title: playlist.name,
-    //     description: playlist.description,
-    //     user_id: req.body.userId,
-    //   }
-    // } playlists.push(playlist));
+    console.log(playlistData.body.items);
 
     const playlists = playlistData.body.items.map((playlist) => {
-      // console.log(playlist.images[0]);
-      // console.log('meow');
-      // return { name: 'meow' };
       return {
         spotify_id: playlist.id,
         playlist_img_url: playlist.images[0]?.url,
@@ -50,7 +31,7 @@ router.post('/', async (req, res) => {
       });
       if (!playlistExist) {
         const newPlaylist = await Playlist.create({
-          playlist,
+          ...playlist,
         });
       }
     });
