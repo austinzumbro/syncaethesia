@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { Song } = require('../../models');
 const spotifyApi = require('../../config/spotify-config');
+// const { spotifyAuth, sessionAuth } = require('../../spotify-auth');
 /* const withAuth = require('../../utils/auth'); */
 
 // Save new song to the database
@@ -31,7 +32,9 @@ router.post('/', async (req, res) => {
 });
 
 router.post('/search', async (req, res) => {
-  const songList = await spotifyApi.searchTracks(`track:${req.body.track}`);
+  const songList = await spotifyApi.searchTracks(
+    `track:${req.body.track} artist:${req.body.artist}`
+  );
 
   console.log('I got ' + songList.body.tracks.total + ' results!');
 
@@ -47,7 +50,7 @@ router.post('/search', async (req, res) => {
   });
   console.log(returnArray);
 
-  res.status(200).json(returnArray);
+  res.status(200).json(JSON.stringify(returnArray));
 });
 
 router.delete('/:id', async (req, res) => {

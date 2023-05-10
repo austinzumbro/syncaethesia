@@ -12,9 +12,24 @@ const spotifyAuth = async (req, res, next) => {
   spotifyApi.setAccessToken(data.body['access_token']);
   spotifyApi.setRefreshToken(data.body['refresh_token']);
 
+  req.session.save(() => {
+    req.session.spotAuthTok = data.body['access_token'];
+    req.session.spotRefTok = data.body['refresh_token'];
+  });
+
   console.log(spotifyApi);
 
   next();
+};
+
+const sessionAuth = async (req, res, next) => {
+  if (req.session.spotAuthTok && req.session.spotRefTok) {
+    spotifyApi.setAccessToken(req.session.spotAuthTok);
+    spotifyApi.setRefreshToken(req.session.spotRefTok);
+    next();
+  } else {
+    next();
+  }
 };
 
 const checkSpotAuth = async (req, res, next) => {
@@ -27,4 +42,4 @@ const checkSpotAuth = async (req, res, next) => {
   }
 };
 
-module.exports = { spotifyAuth };
+module.exports = { spotifyAuth, sessionAuth };

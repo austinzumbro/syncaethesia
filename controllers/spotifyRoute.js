@@ -4,7 +4,7 @@ const router = require('express').Router();
 
 const { User } = require('../models');
 const spotifyApi = require('../config/spotify-config');
-const { spotifyAuth } = require('../utils/spotify-auth');
+const { spotifyAuth, sessionAuth } = require('../utils/spotify-auth');
 
 // credentials are optional
 // const spotifyApi = new SpotifyWebApi({
@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.get('/callback', spotifyAuth, async (req, res) => {
+router.get('/callback', sessionAuth, spotifyAuth, async (req, res) => {
   const currentUser = await spotifyApi.getMe();
 
   const userExists = await User.findAll({
