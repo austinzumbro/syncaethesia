@@ -42,11 +42,19 @@ router.post('/', async (req, res) => {
         user_id: req.session.userId,
       };
     });
-
-    console.log('THE PLAYLIST MAPPING WORKED!!!');
-    console.log(playlists);
-
-    const newPlaylists = await Playlist.bulkCreate(playlists);
+playlists.forEach(async(playlist) => {
+    const playlistExist = await Playlist.findOne({
+      where: {
+        spotify_id: playlist.spotify_id,
+      }
+    });
+    if(!playlistExist){
+      const newPlaylist = await Playlist.create({
+        playlist,
+      })
+    }
+})
+    // const newPlaylists = await Playlist.bulkCreate(playlists);
     res.status(200).json(newPlaylists);
     // need to render homepage if successful
   } catch (err) {
