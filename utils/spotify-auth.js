@@ -1,4 +1,5 @@
 const spotifyApi = require('../config/spotify-config');
+const dotenv = require('dotenv');
 
 const spotifyAuth = async (req, res, next) => {
   const code = req.query.code;
@@ -11,7 +12,19 @@ const spotifyAuth = async (req, res, next) => {
   spotifyApi.setAccessToken(data.body['access_token']);
   spotifyApi.setRefreshToken(data.body['refresh_token']);
 
+  console.log(spotifyApi);
+
   next();
+};
+
+const checkSpotAuth = async (req, res, next) => {
+  const accessToken = spotifyApi._credentials.accessToken;
+  if (!accessToken) {
+    res.redirect(process.env.AUTHORIZE_URL);
+    return;
+  } else {
+    next();
+  }
 };
 
 module.exports = { spotifyAuth };
