@@ -34,6 +34,16 @@ Playlist.init(
         key: 'id',
       },
     },
+    // store title of playlist
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    // store description of playlist
+    description: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize,
