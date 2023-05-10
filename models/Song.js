@@ -35,19 +35,19 @@ Song.init(
     },
     tempo: {
       type: DataTypes.DECIMAL,
-      allowNull: false,
+      allowNull: true,
     },
     danceability: {
       type: DataTypes.DECIMAL,
-      allowNull: false,
+      allowNull: true,
     },
     valence: {
       type: DataTypes.DECIMAL,
-      allowNull: false,
+      allowNull: true,
     },
     speechiness: {
       type: DataTypes.DECIMAL,
-      allowNull: false,
+      allowNull: true,
     },
     lyrics: {
       type: DataTypes.TEXT,
