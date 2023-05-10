@@ -1,23 +1,22 @@
 const router = require('express').Router();
 const { Playlist, Song } = require('../../models');
 const { spotifyAuth } = require('../../utils/spotify-auth');
+const spotifyApi = require('../../config/spotify-config');
 
 router.get('/', spotifyAuth, async (req, res) => {
   try {
-    const playlistData = await Playlist.findAll({
-      where: {
-        user_id: req.session.user_id
-      },
-      include: [
-        {
-          model: Song,
-          attributes: ['id', 'title', 'artist', 'album', 'genre']
-        }
-      ]
+    const playlistData = await spotifyApi.getUserPlaylists(req.session.user_id);
+    const playlists = playlistsData.body.items.map((playlist) => {
+      return {
+        date_created: new Date(),
+        song_id: playlist.id,
+        user_id: req.session.user_id,
+      };
     });
-    const playlists = playlistData.map((playlist) => playlist.get({ plain: true }));
-    res.status(200).json(playlists);
-  } catch (err) {
+    const newPlaylists = await Playlist.bulkCreate(playlists);
+    res.status(200).json(newPlaylists);
+  }
+  catch (err){
     res.status(500).json(err);
   }
 });
