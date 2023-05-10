@@ -1,4 +1,4 @@
-async function quickstart() {
+async function quickstart(lyrics) {
   // Imports the Google Cloud client library
   const language = require('@google-cloud/language');
 
@@ -6,7 +6,7 @@ async function quickstart() {
   const client = new language.LanguageServiceClient();
 
   // The text to analyze
-  const text = 'I fell in a river today and now I am all wet. My clothes are soaked and sticking to my skin. I dropped my phone while trying to swim out.';
+  const text = lyrics;
 
   const document = {
     content: text,
@@ -20,6 +20,8 @@ async function quickstart() {
   console.log(`Text: ${text}`);
   console.log(`Sentiment score: ${sentiment.score}`);
   console.log(`Sentiment magnitude: ${sentiment.magnitude}`);
+
+  return `${sentiment.score}`;
 }
 
-quickstart();
+module.exports = quickstart;
