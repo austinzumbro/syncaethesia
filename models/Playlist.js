@@ -11,10 +11,13 @@ Playlist.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    // Store the current datetime at moment of creation
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
+    spotify_id: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    playlist_img_url: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
     // Associated User id of the user making the comment
     user_id: {
@@ -28,7 +31,7 @@ Playlist.init(
     // store title of playlist
     title: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     // store description of playlist
     description: {

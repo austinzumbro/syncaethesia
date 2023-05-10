@@ -4,36 +4,68 @@ const { spotifyAuth } = require('../../utils/spotify-auth');
 const spotifyApi = require('../../config/spotify-config');
 
 // grab user playlists and save to database models
-router.get('/', spotifyAuth, async (req, res) => {
+router.post('/', async (req, res) => {
+  console.log('this route is running');
+
   try {
-    const playlistData = await spotifyApi.getUserPlaylists(req.session.user_id);
+    console.log(req.session.userId);
+    console.log(req.session.spotAuthTok);
+    console.log(spotifyApi._credentials.accessToken);
+    const playlistData = await spotifyApi.getUserPlaylists(req.session.userId);
+    console.log(playlistData.body.items.length);
+
+    // for (let i = 0; i < playlistData.body.items.length; i++) {
+    //   console.log(playlistData.body.items[i]);
+    // }
+
+    // console.log(playlistData.body.items);
+    // const playlists = [];
+    // playlistData.body.items.forEach((playlist) => {
+    //   let newPlaylist = {
+    //     spotify_id: playlist.id,
+    //     playlist_img_url: playlist.images[0].url,
+    //     title: playlist.name,
+    //     description: playlist.description,
+    //     user_id: req.body.userId,
+    //   }
+    // } playlists.push(playlist));
+
     const playlists = playlistData.body.items.map((playlist) => {
+      // console.log(playlist.images[0]);
+      // console.log('meow');
+      // return { name: 'meow' };
       return {
-        date_created: new Date(),
-        song_id: playlist.id,
-        user_id: req.session.user_id,
+        spotify_id: playlist.id,
+        playlist_img_url: playlist.images[0]?.url,
+        title: playlist.name,
+        description: playlist.description,
+        user_id: req.session.userId,
       };
     });
+
+    console.log('THE PLAYLIST MAPPING WORKED!!!');
+    console.log(playlists);
+
     const newPlaylists = await Playlist.bulkCreate(playlists);
     res.status(200).json(newPlaylists);
     // need to render homepage if successful
-  } catch (err){
+  } catch (err) {
     res.status(500).json(err);
   }
 });
 
 // create new playlist
-router.post('/', spotifyAuth, async (req, res) => {
-  try {
-    const newPlaylist = await Playlist.create({
-      ...req.body,
-      user_id: req.session.user_id,
-    });
-    res.status(200).json(newPlaylist);
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
+// router.post('/', spotifyAuth, async (req, res) => {
+//   try {
+//     const newPlaylist = await Playlist.create({
+//       ...req.body,
+//       user_id: req.session.user_id,
+//     });
+//     res.status(200).json(newPlaylist);
+//   } catch (err) {
+//     res.status(400).json(err);
+//   }
+// });
 
 // add to an existing playlist
 router.post('/:playlistId/add-song', spotifyAuth, async (req, res) => {
@@ -63,8 +95,6 @@ router.post('/:playlistId/add-song', spotifyAuth, async (req, res) => {
   }
 });
 
-
-
 router.delete('/:id', spotifyAuth, async (req, res) => {
   try {
     const playlistData = await Playlist.destroy({
@@ -84,6 +114,5 @@ router.delete('/:id', spotifyAuth, async (req, res) => {
     res.status(500).json(err);
   }
 });
-
 
 module.exports = router;

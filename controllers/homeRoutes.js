@@ -1,7 +1,8 @@
 const router = require('express').Router();
-const { Playlist, User } = require('../models');
+const { Playlist, User, Song } = require('../models');
 const dotenv = require('dotenv');
-// const withAuth = require('../utils/auth');
+const { sessionAuth, checkSpotAuth } = require('../utils/spotify-auth');
+const spotifyApi = require('../config/spotify-config');
 
 const authorizeURL = process.env.AUTHORIZE_URL;
 
@@ -13,9 +14,49 @@ router.get('/playlists', async (req, res) => {
   res.render('playlist', { authorizeURL });
 });
 
-router.get('/dashboard', async (req, res) => {
-  res.render('dashboard', { authorizeURL });
-});
+router.get(
+  '/dashboard/:spotify_id',
+  sessionAuth,
+  checkSpotAuth,
+  async (req, res) => {
+    try {
+      const currentUser = await User.findOne({
+        where: {
+          spotify_id: req.params.spotify_id,
+        },
+        include: [
+          {
+            model: Playlist,
+            include: [
+              {
+                model: Song,
+                attributes: ['title', 'artist'],
+              },
+            ],
+            attributes: ['title'],
+          },
+        ],
+      });
+
+      console.log(currentUser);
+      req.session.save(() => {
+        req.session.userId = currentUser.spotify_id;
+        req.session.spotAuthTok = spotifyApi._credentials.accessToken;
+        req.session.spotRefTok = spotifyApi._credentials.refreshToken;
+      });
+
+      console.log(req.session.userId);
+
+      res.render('dashboard', {
+        user: currentUser,
+        authorizeURL,
+        user_id: req.session.userId,
+      });
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  }
+);
 
 router.get('/login', (req, res) => {
   if (req.session.logged_in) {
@@ -34,7 +75,7 @@ router.get('/spotify-test', (req, res) => {
   res.render('homepage', { layout: 'spotify-test' });
 });
 
-router.get('/song-search', (req, res) => {
+router.get('/song-search', sessionAuth, checkSpotAuth, (req, res) => {
   res.render('song-search', { authorizeURL });
 });
 
