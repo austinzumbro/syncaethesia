@@ -1,6 +1,22 @@
-<form id='song-search-form'>
-  <input type='text' name='track-title' />
-  <input type='submit' />
-</form>
+<div class='max-w-xl mx-auto py-12 divide-y md:max-w-4xl'>
+  <form id='song-search-form'>
+    <div class='grid grid-cols-1 gap-6'>
+      <label class='block'>
+        <span class='text-white'>Artist Name</span>
+        <input
+          type='text'
+          name='artist'
+          class='mt-1 block w-full'
+          placeholder=''
+        />
+      </label>
+      <label class='block'>
+        <span class='text-white'>Song Title</span>
+        <input type='text' name='title' class='mt-1 block w-full' />
+      </label>
+      <input type='submit' class='mt-1 p-4 block bg-teal-500 cursor-pointer' />
+    </div>
+  </form>
+</div>
 
 <script src='/js/song-search.js'></script>
