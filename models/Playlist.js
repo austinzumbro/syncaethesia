@@ -16,15 +16,6 @@ Playlist.init(
       type: DataTypes.DATE,
       allowNull: false,
     },
-    // Associated Post id
-    song_id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      references: {
-        model: 'song',
-        key: 'id',
-      },
-    },
     // Associated User id of the user making the comment
     user_id: {
       type: DataTypes.INTEGER,
@@ -33,6 +24,16 @@ Playlist.init(
         model: 'user',
         key: 'id',
       },
+    },
+    // store title of playlist
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    // store description of playlist
+    description: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
   {
