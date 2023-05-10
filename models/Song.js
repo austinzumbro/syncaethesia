@@ -11,6 +11,10 @@ Song.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    spotify_id: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     // Post title.
     title: {
       type: DataTypes.STRING,

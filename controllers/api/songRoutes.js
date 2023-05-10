@@ -3,6 +3,33 @@ const { Song } = require('../../models');
 const spotifyApi = require('../../config/spotify-config');
 /* const withAuth = require('../../utils/auth'); */
 
+// Save new song to the database
+
+/* Post Body needs to include:
+    {
+      "spotify_id",
+      "title",
+      "artist",
+      "album",
+      "year_released",
+      "tempo",
+      "danceability",
+      "valence",
+      "speechiness",
+      "lyrics",
+    }
+*/
+router.post('/', async (req, res) => {
+  try {
+    const newSong = await Song.create({
+      ...req.body,
+    });
+    res.status(200).json(newSong);
+  } catch (err) {
+    res.status.apply(500).json(err);
+  }
+});
+
 router.post('/search', async (req, res) => {
   const songList = await spotifyApi.searchTracks(`track:${req.body.track}`);
 
@@ -10,35 +37,17 @@ router.post('/search', async (req, res) => {
 
   // Go through the first page of results
   const firstPage = songList.body.tracks.items;
-  console.log('The tracks in the first page are (popularity in parentheses):');
 
-  /*
-   * 0: All of Me (97)
-   * 1: My Love (91)
-   * 2: I Love This Life (78)
-   * ...
-   */
+  console.log(firstPage);
 
   let returnArray = [];
 
   firstPage.forEach(function (track, index) {
-    returnArray.push(track.name);
-    //   index + ': ' + track.name + ' (' + track.popularity + ')'
-    // );
+    returnArray.push(track);
   });
   console.log(returnArray);
 
   res.status(200).json(returnArray);
-
-  // try {
-  //   const newSong = await Song.create({
-  //     ...req.body,
-  //     user_id: req.session.user_id,
-  //   });
-  //   res.status(200).json(newSong);
-  // } catch (err) {
-  //   res.status(400).json(err);
-  // }
 });
 
 router.delete('/:id', async (req, res) => {
