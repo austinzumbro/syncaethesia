@@ -16,8 +16,10 @@ router.post('/', async (req, res) => {
       q_track: req.body.q_track,
       q_artist: req.body.q_artist,
     });
-    console.log(response);
-    res.status(200).json(response);
+
+    console.log(response.lyrics.lyrics_body);
+
+    res.status(200).json(response.lyrics.lyrics_body);
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
