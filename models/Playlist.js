@@ -14,6 +14,7 @@ Playlist.init(
     spotify_id: {
       type: DataTypes.STRING,
       allowNull: true,
+      unique: true,
     },
     playlist_img_url: {
       type: DataTypes.STRING,

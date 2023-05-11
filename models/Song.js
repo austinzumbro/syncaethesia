@@ -14,6 +14,7 @@ Song.init(
     spotify_id: {
       type: DataTypes.STRING,
       allowNull: false,
+      unique: true,
     },
     // Post title.
     title: {
