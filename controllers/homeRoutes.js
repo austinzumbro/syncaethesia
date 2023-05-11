@@ -15,7 +15,7 @@ router.get('/playlists', async (req, res) => {
 });
 
 router.get(
-  '/dashboard/:spotify_id', // removed the path /:spotify_id for now
+  '/dashboard/:spotify_id',
   sessionAuth,
   checkSpotAuth,
   async (req, res) => {
@@ -29,9 +29,9 @@ router.get(
             model: Playlist,
             include: [
               {
-                model: Song,
+                model: Song, 
                 attributes: ['title', 'artist'],
-                limit: 10, // limit # of tracks retrieved
+                // limit: 10 , // limit # of tracks retrieved
               },
             ],
             attributes: ['title', 'description'], // added description

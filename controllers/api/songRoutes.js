@@ -12,7 +12,7 @@ const {
 
 /* Post Body needs to include:
     {
-      "spotify_id",
+      "spotify_id",z
       "title",
       "artist",
       "album",
