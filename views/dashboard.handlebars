@@ -2,20 +2,20 @@
 <button id='import-playlist-button'>Import Playlist from Spotify</button>
 <div class='flex flex-row'>
 
-  <p>{{user}}</p>
-  {{#each playlist}}
+  <p>{{user.display_name}}</p>
+  {{#each playlists as |playlist|}}
     <div
       class='basis-1/4 box-border h-8 w-8 border-4 bg-indigo-800 hover:bg-indigo-500'
     >
       <a href='/playlist'>
         <h2
           class='text-center text-base font-semibold text-amber-500'
-        >{{playlist.name}}</h2>
+        >{{playlist.title}}</h2>
       </a>
       <div
         class='flex flex-column box-border h-2 w-3 border-4 bg-indigo-600 hover:bg-indigo-300'
       >
-        {{#each song}}
+        {{#each playlist.songs as |song| }}
           <p
             class='text-center text-sm font-light text-sky-400'
           >{{song.title}}</p>
