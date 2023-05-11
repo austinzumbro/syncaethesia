@@ -3,8 +3,8 @@ const importAudioAnalysisButton = document.querySelector(
   '#import-audio-analysis'
 );
 
-const userId = document.location.pathname.split('/').pop();
-console.log(userId);
+const spotify_id = document.location.pathname.split('/').pop();
+console.log(spotify_id);
 
 const importPlaylists = async () => {
   console.log('button is working');
@@ -12,7 +12,7 @@ const importPlaylists = async () => {
   const response = await fetch('/api/playlists', {
     method: 'POST',
     body: JSON.stringify({
-      spotify_id: userId,
+      spotify_id: spotify_id,
     }),
     headers: { 'Content-Type': 'application/json' },
   });
@@ -22,9 +22,6 @@ const importPlaylists = async () => {
   } else {
     alert('Playlist Import Failed!');
   }
-  const data = await response.json();
-  const dataReadable = JSON.parse(data);
-  console.log(dataReadable);
 };
 
 const importAudioAnalysis = async () => {

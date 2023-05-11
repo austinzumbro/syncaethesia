@@ -24,6 +24,24 @@ const {
       "lyrics",
     }
 */
+
+function delay(retryCount) {
+  console.log('Delay is being called.');
+  return new Promise((resolve) => setTimeout(resolve, 10 ** retryCount));
+}
+
+const tryBackoff = async (apiCall, retryCount = 3, lastError = null) => {
+  if (retryCount > 5) throw new Error(lastError);
+  try {
+    console.log('\n ----- TRYING THE API CALL ----- \n');
+    return await apiCall;
+  } catch (err) {
+    console.log("\n @@@@@@@ It didn't work, so now we wait. @@@@@@ \n");
+    await delay(retryCount);
+    return tryBackoff(apiCall, retryCount + 1, err);
+  }
+};
+
 router.post('/', async (req, res) => {
   try {
     const newSong = await Song.create({

@@ -78,6 +78,11 @@ router.get('/callback', spotifyAuth, async (req, res) => {
     req.session.userId = userId;
   });
 
+  console.log(req.session.spotAuthTok);
+  console.log(req.session.spotRefTok);
+  console.log(req.session.spotifyId);
+  console.log(req.session.userId);
+
   res.redirect(`/dashboard/${currentUser.body.id}`);
 });
 
