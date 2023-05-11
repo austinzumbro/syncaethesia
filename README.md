@@ -38,6 +38,7 @@
 ### Built With
 
 * [![mysql][mysql]][mysql-url]
+* [![ENV][ENV]][ENV-url]
 
 
 
@@ -100,5 +101,7 @@ MeloRE Link: [https://github.com/austinzumbro/syncaethesia](https://github.com/a
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[MySQL]: https://img.shields.io/badge/-MySQL-blue
+[MySQL]: https://img.shields.io/badge/-MySQL-blue?logo=mysql&logoColor=white&style=plastic&logoWidth=20
 [MySQL-url]: https://www.mysql.com/
+[ENV]: https://img.shields.io/badge/-MySQL-blue?logo=mysql&logoColor=white&style=plastic&logoWidth=20
+[ENV-url]: https://www.mysql.com/
