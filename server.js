@@ -29,11 +29,13 @@ app.use(session(sess));
 const hbs = exphbs.create();
 
 // Read the contents of helper.js
-const helperCode = readFileSync(path.join(__dirname, 'utils', 'helper.js'), 'utf8');
+const helperCode = readFileSync(
+  path.join(__dirname, 'utils', 'helper.js'),
+  'utf8'
+);
 
 // Register the helper code
 eval(helperCode);
-
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');

@@ -26,6 +26,11 @@
             colors: { clifford: '#da373d', } }
       } }
     </script>
+    <style>
+  .hover\:shadow-custom:hover {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+  }
+</style>
   </head>
 
   {{! <body
@@ -36,29 +41,17 @@
   >
     <header>
       <div class='flex flex-row'>
-        <div class='basis-1/4 flex flex-row space-x-4'>
-          <div class='basis-1/4'>
-            <button
-              class='rounded-full bg-sky-600 hover:bg-sky-300 text-lg p-2.5 px-4 text-slate-900'
-            >Friends</button>
-          </div>
+        <div class='basis-1/4 flex flex-row space-x-4 pl-5 pt-5'>
           <div class='basis-1/4'>
             <a href='/dashboard/{{this.spotify_id}}'><button
-                class='rounded-full bg-sky-600 hover:bg-sky-300 text-lg p-2.5 px-4 text-slate-900'
+                class='hover:shadow-custom transform hover:scale-105 transition-all duration-200 text-slate-900 font-semibold p-2.5 px-4 rounded-full bg-sky-600 hover:bg-sky-300 mt-5 rounded-full bg-sky-600 hover:bg-sky-300 font-semibold text-lg p-2.5 px-4 text-slate-900'
               >Dashboard</button></a>
           </div>
         </div>
         <div class='basis-1/2'>
           <h1
-            class='text-center text-2xl font-bold text-amber-800 ml3'
+            class='text-center text-8xl font-bold text-gray-300 ml3'
           >MeloRE:</h1>
-        </div>
-        <div class='basis-1/4 flex flex-row'>
-          <div class='basis-1/4'>
-            <a href='/homepage'><button
-                class='rounded-full bg-sky-600 hover:bg-sky-300 text-lg p-2.5 px-4 text-slate-900'
-              >Logout</button></a>
-          </div>
         </div>
       </div>
     </header>
