@@ -24,6 +24,8 @@ router.post('/', async (req, res) => {
       req.session.spotifyId
     );
 
+    await wait(1000);
+
     // Map over the playlist data
     // const playlists = await Promise.all(
     // const playlists = playlistData.body.items.map(async (playlist) => {
@@ -64,6 +66,7 @@ router.post('/', async (req, res) => {
       // Get the tracks for the playlist from Spotify
       const playlistTracks = await spotifyApi.getPlaylistTracks(playlist.id);
       // console.log(playlistTracks);
+      await wait(1000);
 
       // Map over the tracks and create song objects with necessary fields
       const tracks = playlistTracks.body.items.map((track) => ({
