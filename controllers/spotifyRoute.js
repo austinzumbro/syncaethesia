@@ -31,15 +31,15 @@ const scopes = [
 ];
 //state = 'stupid';
 
-const authorizeURL = process.env.AUTHORIZE_URL;
+// router.get('/', async (req, res) => {
+//   try {
+//     res.render('homepage', { authorizeURL });
+//   } catch (err) {
+//     res.status(400).json(err);
+//   }
+// });
 
-router.get('/', async (req, res) => {
-  try {
-    res.render('homepage', { authorizeURL });
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
+const authorizeURL = process.env.AUTHORIZE_URL;
 
 router.get('/callback', spotifyAuth, async (req, res) => {
   const currentUser = await spotifyApi.getMe();

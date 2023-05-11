@@ -11,20 +11,20 @@ PlaylistSong.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    song_spotify_id: {
+    song_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: 'song',
-        key: 'spotify_id',
+        key: 'id',
       },
     },
-    playlist_spotify_id: {
+    playlist_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: 'playlist',
-        key: 'spotify_id',
+        key: 'id',
       },
     },
   },

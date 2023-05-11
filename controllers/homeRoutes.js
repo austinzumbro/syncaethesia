@@ -38,6 +38,9 @@ router.get(
         ],
       });
 
+      console.log(currentUser.id);
+      console.log(currentUser);
+
       req.session.save(() => {
         req.session.userId = currentUser.id;
         req.session.spotifyId = currentUser.spotify_id;

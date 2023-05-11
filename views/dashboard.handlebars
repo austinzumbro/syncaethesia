@@ -1,6 +1,8 @@
 <h2 class='text-center text-xl font-bold text-lime-500'>Dashboard</h2>
 <button id='import-playlist-button'>Import Playlist from Spotify</button>
 <div class='flex flex-row'>
+
+  <p>{{user}}</p>
   {{#each playlist}}
     <div
       class='basis-1/4 box-border h-8 w-8 border-4 bg-indigo-800 hover:bg-indigo-500'
@@ -31,4 +33,4 @@
 
 <script src='/js/dashboard.js'></script>
 <script src='../public/js/css/input.css'></script>
-<script src="anime.min.js"></script>
+<script src='anime.min.js'></script>

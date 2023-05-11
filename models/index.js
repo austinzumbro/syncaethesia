@@ -8,8 +8,12 @@ const PlaylistSong = require('./PlaylistSong');
 User.hasMany(Playlist, { foreignKey: 'user_id', onDelete: 'CASCADE' });
 Playlist.belongsTo(User, { foreignKey: 'user_id' });
 
-Playlist.belongsToMany(Song, { through: PlaylistSong, foreignKey: 'playlist_spotify_id' });
-Song.belongsToMany(Playlist, { through: PlaylistSong, foreignKey: 'song_spotify_id' });
+Playlist.belongsToMany(Song, {
+  through: PlaylistSong,
+});
+Song.belongsToMany(Playlist, {
+  through: PlaylistSong,
+});
 
 User.belongsToMany(User, {
   as: 'a',

@@ -5,73 +5,123 @@ const spotifyApi = require('../../config/spotify-config');
 
 // grab user playlists and save to database models
 router.post('/', async (req, res) => {
-  //console.log('this route is running');
   try {
-    // console.log(req.session.userId);
-    // console.log(req.session.spotAuthTok);
-    // console.log(spotifyApi._credentials.accessToken);
-
-    // get user playlists from spotify
-    const playlistData = await spotifyApi.getUserPlaylists(req.session.userId);
-    // console.log(playlistData.body.items.length);
-
-    // Map over the playlist data
-    const playlists = await Promise.all(
-      playlistData.body.items.map(async (playlist) => {
-        // Check if the playlist already exists in the database
-        const existingPlaylist = await Playlist.findOne({
-          where: {
-            spotify_id: playlist.id,
-          },
-        });
-
-        // If the playlist doesn't exist, create a new one and populate its songs
-        if (!existingPlaylist) {
-          const newPlaylist = await Playlist.create({
-            spotify_id: playlist.id,
-            playlist_img_url: playlist.images[0]?.url,
-            title: playlist.name,
-            description: playlist.description,
-            user_id: req.session.userId,
-          });
-
-          // Get the tracks for the playlist from Spotify
-          const playlistTracks = await spotifyApi.getPlaylistTracks(playlist.id);
-
-          // Map over the tracks and create song objects with necessary fields
-          const tracks = playlistTracks.body.items.map((track) => ({
-            spotify_id: track.track.id,
-            title: track.track.name,
-            artist: track.track.artists[0].name,
-            album: track.track.album?.name,
-            year_released: track.track.album?.release_date?.split('-')[0],
-            // Include any other relevant fields for the Song model
-          }));
-          
-          const playList_savedTracks = tracks.body.items.map((track) => ({
-            song_spotify_id: track.track.spotify_id,
-            playlist_spotify_id: playlist.id
-          }));
-          // console.log(tracks);
-
-          // Bulk create the songs and associate them with the playlist
-          await Song.bulkCreate(tracks);
-
-          await PlaylistSong.bulkCreate(playList_savedTracks);
-
-          // await newPlaylist.setSongs(tracks);
-
-          // Return the newly created playlist
-          return newPlaylist;
-        }
-
-        // If the playlist already exists, return it without making any changes
-        return existingPlaylist;
-      })
+    console.log('THE ROUTE IS RUNNING');
+    // Get user playlists from spotify
+    const playlistData = await spotifyApi.getUserPlaylists(
+      req.session.spotifyId
     );
 
-    // Send the populated playlists as a JSON response
-    res.status(200).json(playlists);
+    // Map over the playlist data
+    // const playlists = await Promise.all(
+    // const playlists = playlistData.body.items.map(async (playlist) => {
+
+    const playlistDataShortened = [
+      playlistData.body.items[0],
+      playlistData.body.items[1],
+    ];
+
+    playlistDataShortened.forEach(async (playlist) => {
+      let playlistId;
+      // Check if the playlist already exists in the database
+      const existingPlaylist = await Playlist.findOne({
+        where: {
+          spotify_id: playlist.id,
+        },
+      });
+      // console.log('THIS IS A LOOP OF THE MAP FUNCTION');
+      // console.log(existingPlaylist);
+
+      // If the playlist doesn't exist, create a new one and populate its songs
+      if (!existingPlaylist) {
+        const newPlaylist = await Playlist.create({
+          spotify_id: playlist.id,
+          playlist_img_url: playlist.images[0]?.url,
+          title: playlist.name,
+          description: playlist.description,
+          user_id: req.session.userId,
+        });
+
+        playlistId = newPlaylist.id;
+      } else {
+        playlistId = existingPlaylist.id;
+      }
+
+      // Get the tracks for the playlist from Spotify
+      const playlistTracks = await spotifyApi.getPlaylistTracks(playlist.id);
+      // console.log(playlistTracks);
+
+      // Map over the tracks and create song objects with necessary fields
+      const tracks = playlistTracks.body.items.map((track) => ({
+        spotify_id: track.track.id,
+        title: track.track.name,
+        artist: track.track.artists[0].name,
+        album: track.track.album?.name,
+        year_released: track.track.album?.release_date?.split('-')[0],
+        // Include any other relevant fields for the Song model
+      }));
+
+      // console.log(playList_savedTracks);
+
+      tracks.forEach(async (track) => {
+        try {
+          let trackId;
+
+          const trackExists = await Song.findOne({
+            where: {
+              spotify_id: track.spotify_id,
+            },
+          });
+
+          if (!trackExists) {
+            // console.log('TRACK DOES NOT EXIST');
+            const newSong = await Song.create({
+              spotify_id: track.spotify_id,
+              title: track.title,
+              artist: track.artist,
+              album: track.album,
+              // year_released: track.year_released,
+            });
+            trackId = newSong.id;
+            console.log(newSong);
+          } else {
+            trackId = trackExists.id;
+          }
+
+          try {
+            console.log(
+              '\n *********** TRACK ID AND PLAYLIST ID ************** \n'
+            );
+            console.log(trackId);
+            console.log(playlistId);
+            console.log(
+              '\n *********** TRACK ID AND PLAYLIST ID ************** \n'
+            );
+
+            const relationshipExists = await PlaylistSong.findOne({
+              where: {
+                song_id: trackId,
+                playlist_id: playlistId,
+              },
+            });
+
+            if (!relationshipExists) {
+              const newPlaylistSong = await PlaylistSong.create({
+                song_id: trackId,
+                playlist_id: playlistId,
+              });
+
+              console.log(newPlaylistSong);
+            }
+          } catch (err) {
+            console.error(err);
+          }
+        } catch (err) {
+          console.error(err);
+        }
+      });
+    });
+    res.status(200).json({ message: 'Playlists and songs imported.' });
   } catch (err) {
     // Handle any errors that occur during the process
     res.status(500).json(err);
