@@ -39,7 +39,7 @@
 
 * [![mysql][mysql]][mysql-url]
 * [![ENV][ENV]][ENV-url]
-
+* [![SpotifyAPI][Spotify]][SpotifyAPI-url]
 
 
 
@@ -101,7 +101,26 @@ MeloRE Link: [https://github.com/austinzumbro/syncaethesia](https://github.com/a
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[MySQL]: https://img.shields.io/badge/-MySQL-blue?logo=mysql&logoColor=white&style=plastic&logoWidth=20
+[MySQL]: https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=plastic&logoWidth=20
 [MySQL-url]: https://www.mysql.com/
-[ENV]: https://img.shields.io/badge/-MySQL-blue?logo=mysql&logoColor=white&style=plastic&logoWidth=20
-[ENV-url]: https://www.mysql.com/
+
+[ENV]: https://img.shields.io/badge/-dotenv-grey?logo=.env&logoColor=ECD53F&style=plastic&logoWidth=22
+[ENV-url]: https://www.dotenv.org/
+
+[SpotifyAPI]: https://img.shields.io/badge/-Spotify-1DB954?logo=spotify&logoColor=black&style=plastic
+[SpotifyAPI-url]: https://developer.spotify.com/documentation/web-api
+
+[]: https://img.shields.io/badge/-text-color?logo=name of logo &logoColor=yellow&style=plastic&logoWidth=22
+[-url]: 
+
+[]: https://img.shields.io/badge/-text-color?logo=name of logo &logoColor=yellow&style=plastic&logoWidth=22
+[-url]: 
+
+[]: https://img.shields.io/badge/-text-color?logo=name of logo &logoColor=yellow&style=plastic&logoWidth=22
+[-url]: 
+
+[]: https://img.shields.io/badge/-text-color?logo=name of logo &logoColor=yellow&style=plastic&logoWidth=22
+[-url]: 
+
+[]: https://img.shields.io/badge/-text-color?logo=name of logo &logoColor=yellow&style=plastic&logoWidth=22
+[-url]: 
