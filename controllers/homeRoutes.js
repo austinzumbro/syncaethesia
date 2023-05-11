@@ -15,7 +15,7 @@ router.get('/playlists', async (req, res) => {
 });
 
 router.get(
-  '/dashboard/:spotify_id',
+  '/dashboard/:spotify_id', // removed the path /:spotify_id for now
   sessionAuth,
   checkSpotAuth,
   async (req, res) => {
@@ -31,9 +31,10 @@ router.get(
               {
                 model: Song,
                 attributes: ['title', 'artist'],
+                limit: 10, // limit # of tracks retrieved
               },
             ],
-            attributes: ['title'],
+            attributes: ['title', 'description'], // added description
           },
         ],
       });
@@ -48,9 +49,13 @@ router.get(
         req.session.spotRefTok = spotifyApi._credentials.refreshToken;
       });
 
+      const user = currentUser.get({ plain: true });
+      console.log(user.playlists[0]);
+
       res.render('dashboard', {
-        user: currentUser,
+        user: user,
         authorizeURL,
+        playlists: user.playlists,
         user_id: req.session.userId,
       });
     } catch (err) {
@@ -78,6 +83,38 @@ router.get('/spotify-test', (req, res) => {
 
 router.get('/song-search', sessionAuth, checkSpotAuth, (req, res) => {
   res.render('song-search', { authorizeURL });
+});
+
+router.get('/playlists/:id', async(req, res) => {
+  try{
+    const playlistsData = await Playlist.findByPk(req.params.id, {
+      include: [{
+        model: Song,
+      }]
+    });
+    const playlist = playlistsData.get({ plain: true });
+    res.render('playlist', {
+      playlist: playlist,
+      authorizeURL,
+      user_id: req.session.userId,
+    })
+  } catch (err){
+    res.status(500).json(err);
+  }
+});
+
+router.get('/songs/:id', async(req, res) => {
+  try{
+    const songData = await Song.findByPk(req.params.id);
+    const song = songData.get({ plain: true });
+    res.render('song', {
+      song: song,
+      authorizeURL,
+      user_id: req.session.userId,
+    })
+  } catch (err){
+    res.status(500).json(err);
+  }
 });
 
 module.exports = router;
