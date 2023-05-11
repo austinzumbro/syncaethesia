@@ -85,4 +85,36 @@ router.get('/song-search', sessionAuth, checkSpotAuth, (req, res) => {
   res.render('song-search', { authorizeURL });
 });
 
+router.get('/playlists/:id', async(req, res) => {
+  try{
+    const playlistsData = await Playlist.findByPk(req.params.id, {
+      include: [{
+        model: Song,
+      }]
+    });
+    const playlist = playlistsData.get({ plain: true });
+    res.render('playlist', {
+      playlist: playlist,
+      authorizeURL,
+      user_id: req.session.userId,
+    })
+  } catch (err){
+    res.status(500).json(err);
+  }
+});
+
+router.get('/songs/:id', async(req, res) => {
+  try{
+    const songData = await Song.findByPk(req.params.id);
+    const song = songData.get({ plain: true });
+    res.render('song', {
+      song: song,
+      authorizeURL,
+      user_id: req.session.userId,
+    })
+  } catch (err){
+    res.status(500).json(err);
+  }
+});
+
 module.exports = router;
