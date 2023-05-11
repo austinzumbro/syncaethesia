@@ -46,26 +46,25 @@
     </div>
 </div>
  --}}
-<div class="">{{playlist.playlist_img_url}}</div>
-<h1 class="text-center text-xl font-bold text-lime-500">{{title}}</h1>
 
-<div class="flex flex-row space-x-30 justify-center pl-20 pr-20">
-    <div class="flex flex-column basis-1/2 space-y-8">
-        {{#each songs as |song|}}
-            <a href="/song" class="p-8 rounded-lg bg-indigo-800 hover:bg-indigo-500">
-                <div class="flex flex-row justify-between">
-                    <p class="text-lg font-semibold text-sky-400">{{song.title}}</p>
-                    <p class="text-base font-light text-sy-500">{{song.artist}}</p>
-                </div>
-            </a>
-            <span data-id="{{song.tempo}}" id="tempo"></span>
-            <span data-id="{{song.danceability}}" id="danceability"></span>
-            <span data-id="{{song.valence}}" id="valence"></span>
-            <span data-id="{{song.speechiness}}" id="speechiness"></span>
-            <span data-id="{{sentiment}}" id="sentiment"></span>
-        {{/each}}
+<div class='w-screen'>
+  <div class='container mx-auto w-60'>
+    <img src='{{playlist.playlist_img_url}}' />
+  </div>
+  <h2
+    class='text-center text-5xl font-bold text-lime-500'
+  >{{playlist.title}}</h2>
+</div>
+<div class='grid grid-cols-2 grid-rows-1'>
+
+  <div class='flex flex-col gap-2'>
+      {{#each playlist.songs as |song|}}
+        {{>song-details}}
+        
+      {{/each}}
     </div>
-    <div class="basis-1/4">
-        {{> playlist-chart}}
+    <div class='basis-1/4'>
+      {{!-- {{> playlist-chart}} --}}
     </div>
+  </div>
 </div>

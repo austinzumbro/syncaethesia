@@ -10,27 +10,18 @@
       integrity='sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1'
       crossorigin='anonymous'
     /> }}
-    <link rel="stylesheet" href="/public/css/anime.css"/>
-    <link href="/public/js/anime.js"/>
+    <link rel='stylesheet' href='/public/css/anime.css' />
+    <link href='/public/js/anime.js' />
     <script src='https://cdn.tailwindcss.com?plugins=forms'></script>
     <script>
-      tailwind.config = { 
-        theme: { 
-          fontSize: {
-            sm: ['14px', '20px'],
-            base: ['20px', '30px'],
-            lg: ['30px', '38px'],
-            xl: ['60px', '48px'],
-          }
-          extend: { 
-            colors: { clifford: '#da373d', } }
-      } }
+      tailwind.config = { theme: { fontSize: { sm: ['14px', '20px'], base:
+      ['20px', '30px'], lg: ['30px', '38px'], xl: ['60px', '48px'], } extend: {
+      colors: { clifford: '#da373d', } } } }
     </script>
     <style>
-  .hover\:shadow-custom:hover {
-    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
-  }
-</style>
+      .hover\:shadow-custom:hover { box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+      }
+    </style>
   </head>
 
   {{! <body
@@ -39,7 +30,7 @@
   <body
     class='bg-gradient-to-r from-fuchsia-800 from-20% via-violet-800 via-50% to-indigo-800 to-80%'
   >
-    <header>
+    <header class='mb-10'>
       <div class='flex flex-row'>
         <div class='basis-1/4 flex flex-row space-x-4 pl-5 pt-5'>
           <div class='basis-1/4'>
@@ -57,8 +48,8 @@
     </header>
     {{{body}}}
     <script src='../public/js/css/input.css'></script>
-    <script src="anime.min.js"></script>
-    {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> --}}
+    <script src='anime.min.js'></script>
+    {{! <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> }}
   </body>
   <footer>
   </footer>
