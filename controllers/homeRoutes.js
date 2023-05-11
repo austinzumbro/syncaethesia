@@ -49,9 +49,13 @@ router.get(
         req.session.spotRefTok = spotifyApi._credentials.refreshToken;
       });
 
+      const user = currentUser.get({ plain: true });
+      console.log(user.playlists[0]);
+
       res.render('dashboard', {
-        user: currentUser,
+        user: user,
         authorizeURL,
+        playlists: user.playlists,
         user_id: req.session.userId,
       });
     } catch (err) {
