@@ -72,34 +72,79 @@ router.post('/search', sessionAuth, checkSpotAuth, async (req, res) => {
 });
 
 router.post('/import-features', async (req, res) => {
-  console.log('this is working');
-  const allSongs = await Song.findAll({
-    attributes: ['spotify_id'],
-    where: {
-      tempo: null,
-    },
-  });
-  const allSpotifyIds = allSongs.map((song) => song.spotify_id);
-  console.log(allSpotifyIds);
-  for (let i = 0; i < allSpotifyIds.length; i++) {
-    let currentId = allSpotifyIds[i];
-    const songAnalysis = await spotifyApi.getAudioFeaturesForTrack(currentId);
-    console.log(songAnalysis);
-    const updateSong = Song.update(
-      {
-        tempo: songAnalysis.body.tempo,
-        danceability: songAnalysis.body.danceability,
-        valence: songAnalysis.body.valence,
-        speechiness: songAnalysis.body.speechiness,
+  try {
+    console.log('this is working');
+    const allSongs = await Song.findAll({
+      attributes: ['spotify_id'],
+      where: {
+        tempo: null,
       },
-      {
-        where: {
-          spotify_id: currentId,
-        },
+    });
+    const allSpotifyIds = allSongs.map((song) => song.spotify_id);
+    // console.log(allSpotifyIds);
+
+    async function getAudioFeaturesLoop(arrOfIds) {
+      let i = 0;
+      let counter = 100;
+      while (i < arrOfIds.length - 1) {
+        let searchArray = arrOfIds.slice(i, counter);
+        // console.log(searchArray.join(','));
+
+        const songAnalysis = await spotifyApi.getAudioFeaturesForTracks(
+          searchArray
+        );
+
+        const audioFeaturesArray = songAnalysis.body.audio_features;
+
+        audioFeaturesArray.forEach(async (track) => {
+          const updateSong = await Song.update(
+            {
+              tempo: track.tempo,
+              danceability: track.danceability,
+              valence: track.valence,
+              speechiness: track.speechiness,
+            },
+            {
+              where: {
+                spotify_id: track.id,
+              },
+            }
+          );
+          console.log(updateSong);
+        });
+
+        i = counter;
+        counter += 100;
+        if (i > arrOfIds.length) {
+          i = arrOfIds.length;
+        }
       }
-    );
+    }
+
+    await getAudioFeaturesLoop(allSpotifyIds);
+
+    // const getSongAnalysis = (songId) => {};
+
+    // const songAnalysis = await spotifyApi.getAudioFeaturesForTrack(currentId);
+    // console.log(songAnalysis);
+    // const updateSong = Song.update(
+    //   {
+    //     tempo: songAnalysis.body.tempo,
+    //     danceability: songAnalysis.body.danceability,
+    //     valence: songAnalysis.body.valence,
+    //     speechiness: songAnalysis.body.speechiness,
+    //   },
+    //   {
+    //     where: {
+    //       spotify_id: currentId,
+    //     },
+    //   }
+    // );
+    res.status(200).json({ message: 'Audio feature import successful.' });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json(err);
   }
-  res.status(200).json({ message: 'This is a response.' });
 });
 
 router.delete('/:id', async (req, res) => {

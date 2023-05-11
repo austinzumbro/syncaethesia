@@ -31,6 +31,12 @@ const importAudioAnalysis = async () => {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
   });
+
+  if (response.ok) {
+    alert('Audio analysis has been imported.');
+  } else {
+    alert('Import failed.');
+  }
 };
 
 importPlaylistButton.addEventListener('click', importPlaylists);
