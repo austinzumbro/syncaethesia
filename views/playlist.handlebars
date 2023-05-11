@@ -1,4 +1,4 @@
-<div class="container my-12 mx-auto px-4 md:px-12">
+{{!-- <div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
         {{#each song}}
@@ -43,5 +43,29 @@
         <!-- END Column -->
         {{/each}}
 
+    </div>
+</div>
+ --}}
+<div class="">{{playlist.playlist_img_url}}</div>
+<h1 class="text-center text-xl font-bold text-lime-500">{{title}}</h1>
+
+<div class="flex flex-row space-x-30 justify-center pl-20 pr-20">
+    <div class="flex flex-column basis-1/2 space-y-8">
+        {{#each songs as |song|}}
+            <a href="/song" class="p-8 rounded-lg bg-indigo-800 hover:bg-indigo-500">
+                <div class="flex flex-row justify-between">
+                    <p class="text-lg font-semibold text-sky-400">{{song.title}}</p>
+                    <p class="text-base font-light text-sy-500">{{song.artist}}</p>
+                </div>
+            </a>
+            <span data-id="{{song.tempo}}" id="tempo"></span>
+            <span data-id="{{song.danceability}}" id="danceability"></span>
+            <span data-id="{{song.valence}}" id="valence"></span>
+            <span data-id="{{song.speechiness}}" id="speechiness"></span>
+            <span data-id="{{sentiment}}" id="sentiment"></span>
+        {{/each}}
+    </div>
+    <div class="basis-1/4">
+        {{> playlist-chart}}
     </div>
 </div>
