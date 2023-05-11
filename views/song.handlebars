@@ -3,12 +3,11 @@
     <div class="basis-1/4">
         <h3 class="text-center text-base font-semibold text-amber-500">Song Analysis</h3>
         <ul>
-            <li class="text-center text-sm font-light text-sky-400">Track Length: {{song.length}}</li>
-            <li class="text-center text-sm font-light text-sky-400">Tempo: {{song.tempo}}</li>
-            <li class="text-center text-sm font-light text-sky-400">Danceability: {{song.danceability}}</li>
-            <li class="text-center text-sm font-light text-sky-400">Valence: {{song.valence}}</li>
-            <li class="text-center text-sm font-light text-sky-400">Speech/Vocality: {{song.speechiness}}</li>
-            <li class="text-center text-sm font-light text-sky-400">Lyrical Analysis: {{analysis}} {{!-- unsure
+            <li class="text-center text-sm font-light text-sky-400">Tempo: <span id="tempoData">{{song.tempo}}</span></li>
+            <li class="text-center text-sm font-light text-sky-400">Danceability: <span id="danceData">{{song.danceability}}</span></li>
+            <li class="text-center text-sm font-light text-sky-400">Valence: <span id="valenceData">{{song.valence}}</span></li>
+            <li class="text-center text-sm font-light text-sky-400">Speech/Vocality: <span id="speechData">{{song.speechiness}}</span></li>
+            <li class="text-center text-sm font-light text-sky-400">Sentiment: <span id="sentimentData">{{sentiment from google cloud}}</span>{{!-- unsure
                 where/what we would put here --}}</li>
         </ul>
     </div>
