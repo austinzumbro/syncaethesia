@@ -1,0 +1,52 @@
+[
+	{
+		"id" : 1,
+		"spotify_id" : "3w9ydgsGjpCx8kqNeGVFlG",
+		"playlist_img_url" : "https://mosaic.scdn.co/640/ab67616d0000b2733149fbf2d1d31f3f57870b63ab67616d0000b2733e3723c5dabbe563d458746eab67616d0000b273699bbf0ab8fa581e81a77abdab67616d0000b273eb91911035428045c562bdba",
+		"user_id" : 1,
+		"title" : "twitch safe/(modified)",
+		"description" : "",
+		"created_at" : "2023-05-11 04:26:00",
+		"updated_at" : "2023-05-11 04:26:00"
+	},
+	{
+		"id" : 2,
+		"spotify_id" : "37i9dQZF1DX5g856aiKiDS",
+		"playlist_img_url" : "https://i.scdn.co/image/ab67706f0000000362a9874085e91a05440a1cee",
+		"user_id" : 1,
+		"title" : "Dalkom Cafe",
+		"description" : "Chill Korean tunes that's perfect with your latte or americano. (카페와 어울리는 편안한 음악들을 감상하세요.)",
+		"created_at" : "2023-05-11 04:26:00",
+		"updated_at" : "2023-05-11 04:26:00"
+	},
+	{
+		"id" : 3,
+		"spotify_id" : "3AnDGP4f6kLWjJwQ70vFHL",
+		"playlist_img_url" : "https://i.scdn.co/image/ab67616d0000b2730f9d4a39ad0e1a6b101d4a5c",
+		"user_id" : 2,
+		"title" : "The Parting Glass - Live from the Late Late Show",
+		"description" : "",
+		"created_at" : "2023-05-11 04:27:02",
+		"updated_at" : "2023-05-11 04:27:02"
+	},
+	{
+		"id" : 4,
+		"spotify_id" : "1LmQYeyiK8YydQNvQF13Fh",
+		"playlist_img_url" : "https://mosaic.scdn.co/640/ab67616d0000b2730b11729b2d65dbd3518c64daab67616d0000b2735383de093cae56af9e4c27dbab67616d0000b273d4d231e11ce86d2a6e6f9414ab67616d0000b273fc6e5f2e6a7dd1ce3e83a897",
+		"user_id" : 2,
+		"title" : "CEL23",
+		"description" : "",
+		"created_at" : "2023-05-11 04:27:02",
+		"updated_at" : "2023-05-11 04:27:02"
+	},
+	{
+		"id" : 5,
+		"spotify_id" : "2R1cL01Hj4C5IkjpcnwhMX",
+		"playlist_img_url" : "https://mosaic.scdn.co/640/ab67616d0000b273293cf1194ee7b68b1776da3aab67616d0000b2733064536c0ef72a7942f6fed0ab67616d0000b2734b1ee96a23efb656d54142deab67616d0000b27354715257d3075cd6b8ab4a40",
+		"user_id" : 2,
+		"title" : "Roud Folk Song Index",
+		"description" : "one version of each—either the first, the most famous, or my personal favorite: shorturl.at&#x2F;nvwOY",
+		"created_at" : "2023-05-11 04:27:02",
+		"updated_at" : "2023-05-11 04:27:02"
+	}
+]

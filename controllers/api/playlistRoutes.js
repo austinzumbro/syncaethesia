@@ -19,6 +19,7 @@ router.post('/', async (req, res) => {
     const playlistDataShortened = [
       playlistData.body.items[0],
       playlistData.body.items[1],
+      playlistData.body.items[2],
     ];
 
     playlistDataShortened.forEach(async (playlist) => {
