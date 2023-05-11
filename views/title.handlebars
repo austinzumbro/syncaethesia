@@ -19,7 +19,7 @@ var rollOverAnimation = anime.timeline()
     duration: 2250,
     delay: (el, i) => 150 * (i + 1)
   });
-
+  
 rollOverAnimation.finished.then(() => {
   anime({
     targets: '.header',
