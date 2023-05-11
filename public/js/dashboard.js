@@ -1,4 +1,7 @@
 const importPlaylistButton = document.querySelector('#import-playlist-button');
+const importAudioAnalysisButton = document.querySelector(
+  '#import-audio-analysis'
+);
 
 const userId = document.location.pathname.split('/').pop();
 console.log(userId);
@@ -14,7 +17,7 @@ const importPlaylists = async () => {
     headers: { 'Content-Type': 'application/json' },
   });
 
-  if(response.ok){
+  if (response.ok) {
     document.location.reload();
   } else {
     alert('Playlist Import Failed!');
@@ -24,4 +27,14 @@ const importPlaylists = async () => {
   console.log(dataReadable);
 };
 
+const importAudioAnalysis = async () => {
+  console.log('import started');
+
+  const response = await fetch('/api/songs/import-features', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+  });
+};
+
 importPlaylistButton.addEventListener('click', importPlaylists);
+importAudioAnalysisButton.addEventListener('click', importAudioAnalysis);

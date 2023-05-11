@@ -6,13 +6,13 @@
 		"artist" : "Cartoon",
 		"album" : "Más Y Más / On & On",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 173.997,
+		"danceability" : 0.439,
+		"valence" : 0.377,
+		"speechiness" : 0.0454,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 2,
@@ -21,13 +21,13 @@
 		"artist" : "Syn Cole",
 		"album" : "Keep Going",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 119.983,
+		"danceability" : 0.616,
+		"valence" : 0.149,
+		"speechiness" : 0.0263,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 3,
@@ -36,13 +36,13 @@
 		"artist" : "JPB",
 		"album" : "What I Want",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 99.989,
+		"danceability" : 0.753,
+		"valence" : 0.204,
+		"speechiness" : 0.0865,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 4,
@@ -51,13 +51,13 @@
 		"artist" : "Max Brhon",
 		"album" : "The Future",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 109.02,
+		"danceability" : 0.58,
+		"valence" : 0.346,
+		"speechiness" : 0.0565,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 5,
@@ -66,13 +66,13 @@
 		"artist" : "Kozah",
 		"album" : "Hyperdrive",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 75.978,
+		"danceability" : 0.458,
+		"valence" : 0.236,
+		"speechiness" : 0.183,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 6,
@@ -81,13 +81,13 @@
 		"artist" : "Halvorsen",
 		"album" : "CTRL Z",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 122.015,
+		"danceability" : 0.818,
+		"valence" : 0.445,
+		"speechiness" : 0.0617,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 7,
@@ -96,13 +96,13 @@
 		"artist" : "ROY KNOX",
 		"album" : "Blue Eyed Demon",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 176.068,
+		"danceability" : 0.584,
+		"valence" : 0.18,
+		"speechiness" : 0.185,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 8,
@@ -111,13 +111,13 @@
 		"artist" : "Tritan",
 		"album" : "Hollow Life",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 164.981,
+		"danceability" : 0.337,
+		"valence" : 0.134,
+		"speechiness" : 0.0459,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 9,
@@ -126,13 +126,13 @@
 		"artist" : "Johnning",
 		"album" : "Don't Want U Back",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 100.021,
+		"danceability" : 0.804,
+		"valence" : 0.641,
+		"speechiness" : 0.034,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 10,
@@ -141,13 +141,13 @@
 		"artist" : "Unknown Brain",
 		"album" : "Say Goodbye",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 170.068,
+		"danceability" : 0.59,
+		"valence" : 0.206,
+		"speechiness" : 0.076,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 11,
@@ -156,13 +156,13 @@
 		"artist" : "Lost Sky",
 		"album" : "Where We Started",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 75.002,
+		"danceability" : 0.561,
+		"valence" : 0.336,
+		"speechiness" : 0.0318,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 12,
@@ -171,13 +171,13 @@
 		"artist" : "Beatcore",
 		"album" : "Everyday",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.027,
+		"danceability" : 0.493,
+		"valence" : 0.431,
+		"speechiness" : 0.046,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 13,
@@ -186,13 +186,13 @@
 		"artist" : "Rival",
 		"album" : "Be Gone (Urbandawn Remix)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 172.11,
+		"danceability" : 0.506,
+		"valence" : 0.536,
+		"speechiness" : 0.395,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 14,
@@ -201,13 +201,13 @@
 		"artist" : "Heather Sommer",
 		"album" : "Chance On Faith",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 94.999,
+		"danceability" : 0.695,
+		"valence" : 0.359,
+		"speechiness" : 0.044,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 15,
@@ -216,13 +216,13 @@
 		"artist" : "Zeus X Crona",
 		"album" : "Lights Turn Out",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 149.975,
+		"danceability" : 0.746,
+		"valence" : 0.449,
+		"speechiness" : 0.0565,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 16,
@@ -231,13 +231,13 @@
 		"artist" : "Asketa & Natan Chaim",
 		"album" : "Warriors",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 105.024,
+		"danceability" : 0.772,
+		"valence" : 0.426,
+		"speechiness" : 0.182,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 17,
@@ -246,13 +246,13 @@
 		"artist" : "More Plastic",
 		"album" : "Summoning",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 159.943,
+		"danceability" : 0.604,
+		"valence" : 0.39,
+		"speechiness" : 0.0604,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 18,
@@ -261,13 +261,13 @@
 		"artist" : "Droptek",
 		"album" : "New Style",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 171.971,
+		"danceability" : 0.581,
+		"valence" : 0.318,
+		"speechiness" : 0.0796,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 19,
@@ -276,13 +276,13 @@
 		"artist" : "Rival",
 		"album" : "In Your Head",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 144.92,
+		"danceability" : 0.295,
+		"valence" : 0.261,
+		"speechiness" : 0.0543,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 20,
@@ -291,13 +291,13 @@
 		"artist" : "ROY KNOX",
 		"album" : "Save Me",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 157.011,
+		"danceability" : 0.572,
+		"valence" : 0.395,
+		"speechiness" : 0.0444,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 21,
@@ -306,13 +306,13 @@
 		"artist" : "Midranger",
 		"album" : "Unrequited",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 155.063,
+		"danceability" : 0.497,
+		"valence" : 0.376,
+		"speechiness" : 0.0586,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 22,
@@ -321,13 +321,13 @@
 		"artist" : "Kovan",
 		"album" : "Miracle",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 127.898,
+		"danceability" : 0.627,
+		"valence" : 0.299,
+		"speechiness" : 0.0424,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 23,
@@ -336,13 +336,13 @@
 		"artist" : "The Arcturians",
 		"album" : "Bit By Bit",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 74.981,
+		"danceability" : 0.46,
+		"valence" : 0.0775,
+		"speechiness" : 0.043,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:33"
 	},
 	{
 		"id" : 24,
@@ -351,13 +351,13 @@
 		"artist" : "Convex",
 		"album" : "Home Soon",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 179.888,
+		"danceability" : 0.43,
+		"valence" : 0.304,
+		"speechiness" : 0.0601,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 25,
@@ -366,13 +366,13 @@
 		"artist" : "3rd Prototype",
 		"album" : "After The Storm",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.034,
+		"danceability" : 0.621,
+		"valence" : 0.224,
+		"speechiness" : 0.0634,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 26,
@@ -381,13 +381,13 @@
 		"artist" : "Mynerva",
 		"album" : "Find You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.062,
+		"danceability" : 0.274,
+		"valence" : 0.124,
+		"speechiness" : 0.043,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 27,
@@ -396,13 +396,13 @@
 		"artist" : "Abandoned",
 		"album" : "Sunlight",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 145.078,
+		"danceability" : 0.482,
+		"valence" : 0.182,
+		"speechiness" : 0.0521,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 28,
@@ -411,13 +411,13 @@
 		"artist" : "XØ SELF",
 		"album" : "dR3ÄMS",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 164.968,
+		"danceability" : 0.324,
+		"valence" : 0.265,
+		"speechiness" : 0.252,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 29,
@@ -426,13 +426,13 @@
 		"artist" : "Arlow",
 		"album" : "How Do You Know",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 91.064,
+		"danceability" : 0.309,
+		"valence" : 0.195,
+		"speechiness" : 0.127,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 30,
@@ -441,13 +441,13 @@
 		"artist" : "Modern Revolt",
 		"album" : "IWANTYOUTOLISTEN EP",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.123,
+		"danceability" : 0.854,
+		"valence" : 0.312,
+		"speechiness" : 0.313,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:31:34"
 	},
 	{
 		"id" : 31,
@@ -456,13 +456,13 @@
 		"artist" : "Syn Cole",
 		"album" : "Gizmo",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 124.039,
+		"danceability" : 0.788,
+		"valence" : 0.752,
+		"speechiness" : 0.0336,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 32,
@@ -471,13 +471,13 @@
 		"artist" : "Coopex",
 		"album" : "Over The Sun",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.079,
+		"danceability" : 0.69,
+		"valence" : 0.199,
+		"speechiness" : 0.0468,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 33,
@@ -486,13 +486,13 @@
 		"artist" : "Culture Code",
 		"album" : "Fairytale",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 96.999,
+		"danceability" : 0.643,
+		"valence" : 0.457,
+		"speechiness" : 0.0507,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 34,
@@ -501,13 +501,13 @@
 		"artist" : "Modern Revolt",
 		"album" : "LOCA",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 133.958,
+		"danceability" : 0.823,
+		"valence" : 0.53,
+		"speechiness" : 0.43,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 35,
@@ -516,13 +516,13 @@
 		"artist" : "Unknown Brain",
 		"album" : "War Zone",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 80.011,
+		"danceability" : 0.597,
+		"valence" : 0.483,
+		"speechiness" : 0.114,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 36,
@@ -531,13 +531,13 @@
 		"artist" : "Heuse",
 		"album" : "That Night",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 112.649,
+		"danceability" : 0.658,
+		"valence" : 0.29,
+		"speechiness" : 0.802,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 37,
@@ -546,13 +546,13 @@
 		"artist" : "NIVIRO",
 		"album" : "Time For Polka",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 138.041,
+		"danceability" : 0.629,
+		"valence" : 0.532,
+		"speechiness" : 0.16,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 38,
@@ -561,13 +561,13 @@
 		"artist" : "Modern Revolt",
 		"album" : "VOLT",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.081,
+		"danceability" : 0.833,
+		"valence" : 0.568,
+		"speechiness" : 0.121,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 39,
@@ -576,13 +576,13 @@
 		"artist" : "HYLO",
 		"album" : "Headstrong",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 151.942,
+		"danceability" : 0.613,
+		"valence" : 0.285,
+		"speechiness" : 0.204,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 40,
@@ -591,13 +591,13 @@
 		"artist" : "Max Brhon",
 		"album" : "Cyberpunk",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 110.017,
+		"danceability" : 0.529,
+		"valence" : 0.0883,
+		"speechiness" : 0.0888,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 41,
@@ -606,13 +606,13 @@
 		"artist" : "ROY KNOX",
 		"album" : "Shining",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.01,
+		"danceability" : 0.653,
+		"valence" : 0.334,
+		"speechiness" : 0.492,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 42,
@@ -621,13 +621,13 @@
 		"artist" : "RudeLies",
 		"album" : "Down",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 127.939,
+		"danceability" : 0.778,
+		"valence" : 0.295,
+		"speechiness" : 0.0988,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 43,
@@ -636,13 +636,13 @@
 		"artist" : "Ascence",
 		"album" : "About You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.004,
+		"danceability" : 0.536,
+		"valence" : 0.553,
+		"speechiness" : 0.036,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 44,
@@ -651,13 +651,13 @@
 		"artist" : "Zeus X Crona",
 		"album" : "Lose me too",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.019,
+		"danceability" : 0.6,
+		"valence" : 0.174,
+		"speechiness" : 0.0469,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 45,
@@ -666,13 +666,13 @@
 		"artist" : "Koven",
 		"album" : "About Me",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 180.166,
+		"danceability" : 0.518,
+		"valence" : 0.481,
+		"speechiness" : 0.17,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 46,
@@ -681,13 +681,13 @@
 		"artist" : "Coopex",
 		"album" : "I Miss You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 144.959,
+		"danceability" : 0.521,
+		"valence" : 0.387,
+		"speechiness" : 0.259,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 47,
@@ -696,13 +696,13 @@
 		"artist" : "Barren Gates",
 		"album" : "Devil",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.062,
+		"danceability" : 0.506,
+		"valence" : 0.402,
+		"speechiness" : 0.155,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 48,
@@ -711,13 +711,13 @@
 		"artist" : "EMDI",
 		"album" : "Hurts Like This",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 123.971,
+		"danceability" : 0.622,
+		"valence" : 0.349,
+		"speechiness" : 0.0666,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 49,
@@ -726,13 +726,13 @@
 		"artist" : "Anna Yvette",
 		"album" : "Red Line",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 109.972,
+		"danceability" : 0.606,
+		"valence" : 0.533,
+		"speechiness" : 0.0312,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 50,
@@ -741,13 +741,13 @@
 		"artist" : "PatrickReza",
 		"album" : "Choices",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 149.901,
+		"danceability" : 0.653,
+		"valence" : 0.36,
+		"speechiness" : 0.0903,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 51,
@@ -756,13 +756,13 @@
 		"artist" : "3rd Prototype",
 		"album" : "Blue",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 127.963,
+		"danceability" : 0.573,
+		"valence" : 0.283,
+		"speechiness" : 0.336,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 52,
@@ -771,13 +771,13 @@
 		"artist" : "Melo.Kids",
 		"album" : "My Love",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 127.988,
+		"danceability" : 0.553,
+		"valence" : 0.114,
+		"speechiness" : 0.0475,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:40"
 	},
 	{
 		"id" : 53,
@@ -786,13 +786,13 @@
 		"artist" : "Beatcore",
 		"album" : "Burning Bridges",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 139.7,
+		"danceability" : 0.431,
+		"valence" : 0.326,
+		"speechiness" : 0.0667,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 54,
@@ -801,13 +801,13 @@
 		"artist" : "Max Brhon",
 		"album" : "Humanity",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 110.042,
+		"danceability" : 0.669,
+		"valence" : 0.306,
+		"speechiness" : 0.0536,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 55,
@@ -816,13 +816,13 @@
 		"artist" : "Cartoon",
 		"album" : "On & On",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.141,
+		"danceability" : 0.458,
+		"valence" : 0.418,
+		"speechiness" : 0.0402,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 56,
@@ -831,13 +831,13 @@
 		"artist" : "Spirix",
 		"album" : "Rampage Diet",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 169.938,
+		"danceability" : 0.668,
+		"valence" : 0.505,
+		"speechiness" : 0.17,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 57,
@@ -846,13 +846,13 @@
 		"artist" : "Sk-Hall",
 		"album" : "New Beginning",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 99.995,
+		"danceability" : 0.586,
+		"valence" : 0.19,
+		"speechiness" : 0.0248,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 58,
@@ -861,13 +861,13 @@
 		"artist" : "Domastic",
 		"album" : "Echoes",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.005,
+		"danceability" : 0.66,
+		"valence" : 0.18,
+		"speechiness" : 0.0533,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 59,
@@ -876,13 +876,13 @@
 		"artist" : "Sub Urban",
 		"album" : "Cradles",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 78.616,
+		"danceability" : 0.534,
+		"valence" : 0.632,
+		"speechiness" : 0.325,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 60,
@@ -891,13 +891,13 @@
 		"artist" : "Unknown Brain",
 		"album" : "Superhero",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 75.013,
+		"danceability" : 0.669,
+		"valence" : 0.223,
+		"speechiness" : 0.0714,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 61,
@@ -906,13 +906,13 @@
 		"artist" : "Cartoon",
 		"album" : "Why We Lose",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.986,
+		"danceability" : 0.424,
+		"valence" : 0.0973,
+		"speechiness" : 0.0427,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 62,
@@ -921,13 +921,13 @@
 		"artist" : "ROY KNOX",
 		"album" : "Earthquake",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 155.385,
+		"danceability" : 0.488,
+		"valence" : 0.467,
+		"speechiness" : 0.396,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 63,
@@ -936,13 +936,13 @@
 		"artist" : "Star Party",
 		"album" : "Ark",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.134,
+		"danceability" : 0.515,
+		"valence" : 0.0687,
+		"speechiness" : 0.0394,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 64,
@@ -951,13 +951,13 @@
 		"artist" : "Julius Dreisig",
 		"album" : "Invisible",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 82.517,
+		"danceability" : 0.693,
+		"valence" : 0.224,
+		"speechiness" : 0.342,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 65,
@@ -966,13 +966,13 @@
 		"artist" : "Warriyo",
 		"album" : "Mortals",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 90.075,
+		"danceability" : 0.323,
+		"valence" : 0.0744,
+		"speechiness" : 0.0458,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 66,
@@ -981,13 +981,13 @@
 		"artist" : "Syn Cole",
 		"album" : "Feel Good",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 123.973,
+		"danceability" : 0.629,
+		"valence" : 0.324,
+		"speechiness" : 0.0312,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 67,
@@ -996,13 +996,13 @@
 		"artist" : "Acejax",
 		"album" : "By My Side",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.118,
+		"danceability" : 0.509,
+		"valence" : 0.0885,
+		"speechiness" : 0.0443,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 68,
@@ -1011,13 +1011,13 @@
 		"artist" : "Lost Sky",
 		"album" : "Dreams pt. II",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 144.937,
+		"danceability" : 0.52,
+		"valence" : 0.511,
+		"speechiness" : 0.0363,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 69,
@@ -1026,13 +1026,13 @@
 		"artist" : "Unknown Brain",
 		"album" : "MATAFAKA",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 95.032,
+		"danceability" : 0.659,
+		"valence" : 0.37,
+		"speechiness" : 0.0581,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 70,
@@ -1041,13 +1041,13 @@
 		"artist" : "Unknown Brain",
 		"album" : "Control",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 99.976,
+		"danceability" : 0.548,
+		"valence" : 0.302,
+		"speechiness" : 0.0609,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 71,
@@ -1056,13 +1056,13 @@
 		"artist" : "Diamond Eyes",
 		"album" : "Everything",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.038,
+		"danceability" : 0.609,
+		"valence" : 0.386,
+		"speechiness" : 0.0516,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 72,
@@ -1071,13 +1071,13 @@
 		"artist" : "Chime",
 		"album" : "Phototropic",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 149.954,
+		"danceability" : 0.571,
+		"valence" : 0.129,
+		"speechiness" : 0.0889,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 73,
@@ -1086,13 +1086,13 @@
 		"artist" : "Last Heroes",
 		"album" : "Dimensions",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 139.957,
+		"danceability" : 0.197,
+		"valence" : 0.0581,
+		"speechiness" : 0.0346,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 74,
@@ -1101,13 +1101,13 @@
 		"artist" : "Koven",
 		"album" : "Never Have I Felt This",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.985,
+		"danceability" : 0.48,
+		"valence" : 0.311,
+		"speechiness" : 0.0563,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 75,
@@ -1116,13 +1116,13 @@
 		"artist" : "Tom Wilson",
 		"album" : "Until I Die",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 163.943,
+		"danceability" : 0.446,
+		"valence" : 0.467,
+		"speechiness" : 0.0557,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 76,
@@ -1131,13 +1131,13 @@
 		"artist" : "WiDE AWAKE",
 		"album" : "Something More",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 149.991,
+		"danceability" : 0.579,
+		"valence" : 0.207,
+		"speechiness" : 0.0719,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 77,
@@ -1146,13 +1146,13 @@
 		"artist" : "Au5",
 		"album" : "Closer",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.219,
+		"danceability" : 0.416,
+		"valence" : 0.235,
+		"speechiness" : 0.115,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 78,
@@ -1161,13 +1161,13 @@
 		"artist" : "Feint",
 		"album" : "Shockwave",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 173.973,
+		"danceability" : 0.344,
+		"valence" : 0.363,
+		"speechiness" : 0.135,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 79,
@@ -1176,13 +1176,13 @@
 		"artist" : "Subtact",
 		"album" : "Want You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.042,
+		"danceability" : 0.515,
+		"valence" : 0.31,
+		"speechiness" : 0.124,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 80,
@@ -1191,13 +1191,13 @@
 		"artist" : "WATEVA",
 		"album" : "We Killed It, It's Murda",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 125.03,
+		"danceability" : 0.818,
+		"valence" : 0.483,
+		"speechiness" : 0.0893,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 81,
@@ -1206,13 +1206,13 @@
 		"artist" : "Krys Talk",
 		"album" : "Fly Away (The Remixes)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.151,
+		"danceability" : 0.332,
+		"valence" : 0.242,
+		"speechiness" : 0.0387,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 82,
@@ -1221,13 +1221,13 @@
 		"artist" : "Cartoon",
 		"album" : "Immortality (Futuristik Remix)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 173.939,
+		"danceability" : 0.369,
+		"valence" : 0.356,
+		"speechiness" : 0.0814,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 83,
@@ -1236,13 +1236,13 @@
 		"artist" : "Razihel",
 		"album" : "Love U",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.017,
+		"danceability" : 0.569,
+		"valence" : 0.34,
+		"speechiness" : 0.0319,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 84,
@@ -1251,13 +1251,13 @@
 		"artist" : "K-391",
 		"album" : "NCS: The Best of 2016",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 166.948,
+		"danceability" : 0.548,
+		"valence" : 0.0866,
+		"speechiness" : 0.0499,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:41"
 	},
 	{
 		"id" : 85,
@@ -1266,13 +1266,13 @@
 		"artist" : "Chime",
 		"album" : "Whole",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 139.995,
+		"danceability" : 0.643,
+		"valence" : 0.755,
+		"speechiness" : 0.0753,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 86,
@@ -1281,13 +1281,13 @@
 		"artist" : "IZECOLD",
 		"album" : "NCS: The Best of 2016",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.001,
+		"danceability" : 0.733,
+		"valence" : 0.447,
+		"speechiness" : 0.0507,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 87,
@@ -1296,13 +1296,13 @@
 		"artist" : "CØDE",
 		"album" : "Get The Party",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 122,
+		"danceability" : 0.87,
+		"valence" : 0.302,
+		"speechiness" : 0.157,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 88,
@@ -1311,13 +1311,13 @@
 		"artist" : "Egzod",
 		"album" : "Rise Up",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 76.944,
+		"danceability" : 0.581,
+		"valence" : 0.501,
+		"speechiness" : 0.0958,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 89,
@@ -1326,13 +1326,13 @@
 		"artist" : "Rival",
 		"album" : "Walls",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 89.977,
+		"danceability" : 0.479,
+		"valence" : 0.217,
+		"speechiness" : 0.0463,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 90,
@@ -1341,13 +1341,13 @@
 		"artist" : "T-Mass",
 		"album" : "Can You Feel It",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.01,
+		"danceability" : 0.544,
+		"valence" : 0.768,
+		"speechiness" : 0.0378,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 91,
@@ -1356,13 +1356,13 @@
 		"artist" : "AXEN",
 		"album" : "Habits",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.074,
+		"danceability" : 0.51,
+		"valence" : 0.419,
+		"speechiness" : 0.0517,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 92,
@@ -1371,13 +1371,13 @@
 		"artist" : "Aero Chord",
 		"album" : "Incomplete (Muzzy Remix)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 175.022,
+		"danceability" : 0.528,
+		"valence" : 0.424,
+		"speechiness" : 0.149,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 93,
@@ -1386,13 +1386,13 @@
 		"artist" : "Cartoon",
 		"album" : "I Remember U",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.031,
+		"danceability" : 0.522,
+		"valence" : 0.302,
+		"speechiness" : 0.04,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 94,
@@ -1401,13 +1401,13 @@
 		"artist" : "It's Different",
 		"album" : "Outlaw",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.999,
+		"danceability" : 0.534,
+		"valence" : 0.132,
+		"speechiness" : 0.0534,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 95,
@@ -1416,13 +1416,13 @@
 		"artist" : "Hoober",
 		"album" : "Wild Side",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 130.04,
+		"danceability" : 0.674,
+		"valence" : 0.304,
+		"speechiness" : 0.0769,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 96,
@@ -1431,13 +1431,13 @@
 		"artist" : "Futuristik",
 		"album" : "Like U Say",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.027,
+		"danceability" : 0.515,
+		"valence" : 0.356,
+		"speechiness" : 0.0417,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 97,
@@ -1446,13 +1446,13 @@
 		"artist" : "T & Sugah",
 		"album" : "Sleepless",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.056,
+		"danceability" : 0.349,
+		"valence" : 0.0974,
+		"speechiness" : 0.0515,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 98,
@@ -1461,13 +1461,13 @@
 		"artist" : "Diamond Eyes",
 		"album" : "Hold On",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 159.912,
+		"danceability" : 0.516,
+		"valence" : 0.164,
+		"speechiness" : 0.039,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 99,
@@ -1476,13 +1476,13 @@
 		"artist" : "Michael White",
 		"album" : "About To Go Down",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.047,
+		"danceability" : 0.637,
+		"valence" : 0.249,
+		"speechiness" : 0.0837,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 100,
@@ -1491,13 +1491,13 @@
 		"artist" : "Michael White",
 		"album" : "Angel's Anthem",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.049,
+		"danceability" : 0.691,
+		"valence" : 0.426,
+		"speechiness" : 0.0951,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 101,
@@ -1506,13 +1506,13 @@
 		"artist" : "Eldon",
 		"album" : "Do monsters love too?",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 95.02,
+		"danceability" : 0.841,
+		"valence" : 0.702,
+		"speechiness" : 0.0371,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 102,
@@ -1521,13 +1521,13 @@
 		"artist" : "Jay Park",
 		"album" : "Spotify Singles",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 70.301,
+		"danceability" : 0.532,
+		"valence" : 0.552,
+		"speechiness" : 0.272,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 103,
@@ -1536,13 +1536,13 @@
 		"artist" : "Sam Kim",
 		"album" : "Nevertheless, (Original Television Soundtrack, Pt. 6)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 87.895,
+		"danceability" : 0.59,
+		"valence" : 0.461,
+		"speechiness" : 0.0654,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 104,
@@ -1551,13 +1551,13 @@
 		"artist" : "slchld",
 		"album" : "as long as you're okay",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 78.976,
+		"danceability" : 0.666,
+		"valence" : 0.369,
+		"speechiness" : 0.0373,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 105,
@@ -1566,13 +1566,13 @@
 		"artist" : "Jimmy Brown",
 		"album" : "Let Me Know",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 97.944,
+		"danceability" : 0.797,
+		"valence" : 0.536,
+		"speechiness" : 0.0303,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 106,
@@ -1581,13 +1581,13 @@
 		"artist" : "JUNNY",
 		"album" : "By My Side",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 179.462,
+		"danceability" : 0.466,
+		"valence" : 0.375,
+		"speechiness" : 0.0445,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 107,
@@ -1596,13 +1596,13 @@
 		"artist" : "NIve",
 		"album" : "Like A Fool",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 176.92,
+		"danceability" : 0.496,
+		"valence" : 0.5,
+		"speechiness" : 0.287,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 108,
@@ -1611,13 +1611,13 @@
 		"artist" : "Colde",
 		"album" : "Your Dog Loves You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.661,
+		"danceability" : 0.413,
+		"valence" : 0.134,
+		"speechiness" : 0.0371,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 109,
@@ -1626,13 +1626,13 @@
 		"artist" : "LambC",
 		"album" : "Absence 'Side A'",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 154.02,
+		"danceability" : 0.757,
+		"valence" : 0.871,
+		"speechiness" : 0.0858,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 110,
@@ -1641,13 +1641,13 @@
 		"artist" : "Sam Kim",
 		"album" : "Sun And Moon",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 95.042,
+		"danceability" : 0.738,
+		"valence" : 0.809,
+		"speechiness" : 0.155,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 111,
@@ -1656,13 +1656,13 @@
 		"artist" : "에릭남 (Eric Nam), CHEEZE (치즈)",
 		"album" : "Your BGM Vol.1",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 83.997,
+		"danceability" : 0.525,
+		"valence" : 0.258,
+		"speechiness" : 0.0295,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 112,
@@ -1671,13 +1671,13 @@
 		"artist" : "SURAN",
 		"album" : "WINE",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 145.87,
+		"danceability" : 0.62,
+		"valence" : 0.502,
+		"speechiness" : 0.0447,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 113,
@@ -1686,13 +1686,13 @@
 		"artist" : "JUNNY",
 		"album" : "nostalgia",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 180.06,
+		"danceability" : 0.536,
+		"valence" : 0.457,
+		"speechiness" : 0.12,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 114,
@@ -1701,13 +1701,13 @@
 		"artist" : "Cosmic Boy",
 		"album" : "Can I Love ?",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 79.958,
+		"danceability" : 0.708,
+		"valence" : 0.275,
+		"speechiness" : 0.0623,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:42"
 	},
 	{
 		"id" : 115,
@@ -1716,13 +1716,13 @@
 		"artist" : "Chancellor",
 		"album" : "Chancellor",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 85.782,
+		"danceability" : 0.584,
+		"valence" : 0.514,
+		"speechiness" : 0.0611,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 116,
@@ -1731,13 +1731,13 @@
 		"artist" : "IU",
 		"album" : "Palette",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 102.013,
+		"danceability" : 0.804,
+		"valence" : 0.62,
+		"speechiness" : 0.2,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 117,
@@ -1746,13 +1746,13 @@
 		"artist" : "Dept",
 		"album" : "whenever it rains",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 138.942,
+		"danceability" : 0.655,
+		"valence" : 0.421,
+		"speechiness" : 0.0683,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 118,
@@ -1761,13 +1761,13 @@
 		"artist" : "ZICO",
 		"album" : "SoulMate (feat. IU)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 96.998,
+		"danceability" : 0.855,
+		"valence" : 0.518,
+		"speechiness" : 0.141,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 119,
@@ -1776,13 +1776,13 @@
 		"artist" : "offonoff",
 		"album" : "boy.",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 90.15,
+		"danceability" : 0.597,
+		"valence" : 0.184,
+		"speechiness" : 0.0609,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 120,
@@ -1791,13 +1791,13 @@
 		"artist" : "BOL4",
 		"album" : "Full Album RED PLANET",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 82.814,
+		"danceability" : 0.483,
+		"valence" : 0.696,
+		"speechiness" : 0.143,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 121,
@@ -1806,13 +1806,13 @@
 		"artist" : "Epik High",
 		"album" : "Rain Song",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 87.934,
+		"danceability" : 0.677,
+		"valence" : 0.562,
+		"speechiness" : 0.0416,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 122,
@@ -1821,13 +1821,13 @@
 		"artist" : "frad",
 		"album" : "fool",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 90,
+		"danceability" : 0.787,
+		"valence" : 0.488,
+		"speechiness" : 0.0458,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 123,
@@ -1836,13 +1836,13 @@
 		"artist" : "Yerin Baek",
 		"album" : "Every letter I sent you.",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 84.886,
+		"danceability" : 0.604,
+		"valence" : 0.695,
+		"speechiness" : 0.0545,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 124,
@@ -1851,13 +1851,13 @@
 		"artist" : "Chancellor",
 		"album" : "Angel",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 90.008,
+		"danceability" : 0.614,
+		"valence" : 0.52,
+		"speechiness" : 0.0361,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 125,
@@ -1866,13 +1866,13 @@
 		"artist" : "Vincent Blue",
 		"album" : "It's Raining",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 77.987,
+		"danceability" : 0.656,
+		"valence" : 0.787,
+		"speechiness" : 0.0354,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 126,
@@ -1881,13 +1881,13 @@
 		"artist" : "Jesse Barrera",
 		"album" : "Maybe We Could Be a Thing",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 94.996,
+		"danceability" : 0.684,
+		"valence" : 0.62,
+		"speechiness" : 0.0287,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 127,
@@ -1896,13 +1896,13 @@
 		"artist" : "slchld",
 		"album" : "end of summer",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 83.988,
+		"danceability" : 0.535,
+		"valence" : 0.267,
+		"speechiness" : 0.073,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 128,
@@ -1911,13 +1911,13 @@
 		"artist" : "Blue.D",
 		"album" : "NOBODY",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 88.626,
+		"danceability" : 0.686,
+		"valence" : 0.491,
+		"speechiness" : 0.0437,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 129,
@@ -1926,13 +1926,13 @@
 		"artist" : "dori",
 		"album" : "2 O' CLOCK",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 92.044,
+		"danceability" : 0.821,
+		"valence" : 0.744,
+		"speechiness" : 0.0491,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 130,
@@ -1941,13 +1941,13 @@
 		"artist" : "Airman",
 		"album" : "Morning Diaries EP 1",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 90.009,
+		"danceability" : 0.695,
+		"valence" : 0.358,
+		"speechiness" : 0.03,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 131,
@@ -1956,13 +1956,13 @@
 		"artist" : "Sentimental Scenery",
 		"album" : "How Can I",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 68.995,
+		"danceability" : 0.45,
+		"valence" : 0.331,
+		"speechiness" : 0.221,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 132,
@@ -1971,13 +1971,13 @@
 		"artist" : "Crush",
 		"album" : "Don't Forget",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.948,
+		"danceability" : 0.661,
+		"valence" : 0.258,
+		"speechiness" : 0.0327,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 133,
@@ -1986,13 +1986,13 @@
 		"artist" : "Yerin Baek",
 		"album" : "Our Love is Great",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 192.08,
+		"danceability" : 0.311,
+		"valence" : 0.626,
+		"speechiness" : 0.076,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 134,
@@ -2001,13 +2001,13 @@
 		"artist" : "Colde",
 		"album" : "I`m In Love",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.039,
+		"danceability" : 0.613,
+		"valence" : 0.67,
+		"speechiness" : 0.0326,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 135,
@@ -2016,13 +2016,13 @@
 		"artist" : "Eldon",
 		"album" : "Do monsters love too?",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 160.028,
+		"danceability" : 0.764,
+		"valence" : 0.399,
+		"speechiness" : 0.087,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 136,
@@ -2031,13 +2031,13 @@
 		"artist" : "Sam Kim",
 		"album" : "I AM SAM",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 86.836,
+		"danceability" : 0.714,
+		"valence" : 0.325,
+		"speechiness" : 0.0269,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 137,
@@ -2046,13 +2046,13 @@
 		"artist" : "OVAN",
 		"album" : "I Need You",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 142.89,
+		"danceability" : 0.653,
+		"valence" : 0.768,
+		"speechiness" : 0.165,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 138,
@@ -2061,13 +2061,13 @@
 		"artist" : "NewJeans",
 		"album" : "NewJeans 1st EP 'New Jeans'",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 179.877,
+		"danceability" : 0.599,
+		"valence" : 0.567,
+		"speechiness" : 0.0833,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 139,
@@ -2076,13 +2076,13 @@
 		"artist" : "BIG Naughty",
 		"album" : "NANGMAN",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 89.445,
+		"danceability" : 0.648,
+		"valence" : 0.686,
+		"speechiness" : 0.148,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 140,
@@ -2091,13 +2091,13 @@
 		"artist" : "Yerin Baek",
 		"album" : "Bye bye my blue",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 87.702,
+		"danceability" : 0.511,
+		"valence" : 0.297,
+		"speechiness" : 0.114,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 141,
@@ -2106,13 +2106,13 @@
 		"artist" : "MoonMoon",
 		"album" : "LIFE IS BEAUTY FULL",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 101.967,
+		"danceability" : 0.844,
+		"valence" : 0.75,
+		"speechiness" : 0.0348,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 142,
@@ -2121,13 +2121,13 @@
 		"artist" : "JOE CHO",
 		"album" : "Wake U Up",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 150.005,
+		"danceability" : 0.725,
+		"valence" : 0.502,
+		"speechiness" : 0.0981,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 143,
@@ -2136,13 +2136,13 @@
 		"artist" : "Zion.T",
 		"album" : "ZZZ",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 98.047,
+		"danceability" : 0.739,
+		"valence" : 0.498,
+		"speechiness" : 0.0613,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 144,
@@ -2151,13 +2151,13 @@
 		"artist" : "Sweet The Kid",
 		"album" : "cocoa",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 94.072,
+		"danceability" : 0.6,
+		"valence" : 0.572,
+		"speechiness" : 0.0631,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 145,
@@ -2166,13 +2166,13 @@
 		"artist" : "HEIZE",
 		"album" : "Wish & Wind",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 93.015,
+		"danceability" : 0.711,
+		"valence" : 0.604,
+		"speechiness" : 0.0436,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 146,
@@ -2181,13 +2181,13 @@
 		"artist" : "softy",
 		"album" : "time to be with you",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 75.913,
+		"danceability" : 0.295,
+		"valence" : 0.222,
+		"speechiness" : 0.0585,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 147,
@@ -2196,13 +2196,13 @@
 		"artist" : "LambC",
 		"album" : "Childish",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 124.996,
+		"danceability" : 0.822,
+		"valence" : 0.439,
+		"speechiness" : 0.0548,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 148,
@@ -2211,13 +2211,13 @@
 		"artist" : "BIG Naughty",
 		"album" : "Beyond Love",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.954,
+		"danceability" : 0.507,
+		"valence" : 0.587,
+		"speechiness" : 0.0856,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 149,
@@ -2226,13 +2226,13 @@
 		"artist" : "Woody",
 		"album" : "Fire up",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 85.822,
+		"danceability" : 0.619,
+		"valence" : 0.742,
+		"speechiness" : 0.0642,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 150,
@@ -2241,13 +2241,13 @@
 		"artist" : "ZICO",
 		"album" : "THINKING Part.2",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 79.814,
+		"danceability" : 0.576,
+		"valence" : 0.355,
+		"speechiness" : 0.109,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:26:00",
-		"updated_at" : "2023-05-11 04:26:00"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:43"
 	},
 	{
 		"id" : 151,
@@ -2256,13 +2256,13 @@
 		"artist" : "Lucinda Williams",
 		"album" : "Sweet Old World",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 107.339,
+		"danceability" : 0.642,
+		"valence" : 0.325,
+		"speechiness" : 0.0258,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 152,
@@ -2271,13 +2271,13 @@
 		"artist" : "Hozier",
 		"album" : "The Parting Glass (Live from the Late Late Show)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 203.285,
+		"danceability" : 0.266,
+		"valence" : 0.472,
+		"speechiness" : 0.0439,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 153,
@@ -2286,13 +2286,13 @@
 		"artist" : "Shawn Wasabi",
 		"album" : "the snack that smiles back (feat. raychel jay)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 94.034,
+		"danceability" : 0.776,
+		"valence" : 0.39,
+		"speechiness" : 0.12,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 154,
@@ -2301,13 +2301,13 @@
 		"artist" : "Vulfpeck",
 		"album" : "Thrill of the Arts",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 89.821,
+		"danceability" : 0.839,
+		"valence" : 0.89,
+		"speechiness" : 0.153,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 155,
@@ -2316,13 +2316,13 @@
 		"artist" : "Vulfpeck",
 		"album" : "The Beautiful Game",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 100.856,
+		"danceability" : 0.751,
+		"valence" : 0.906,
+		"speechiness" : 0.0544,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 156,
@@ -2331,13 +2331,13 @@
 		"artist" : "corook",
 		"album" : "if i were a fish (feat. Olivia Barton)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 179.849,
+		"danceability" : 0.699,
+		"valence" : 0.81,
+		"speechiness" : 0.093,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 157,
@@ -2346,13 +2346,13 @@
 		"artist" : "The Chieftains",
 		"album" : "Further Down The Old Plank Road",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 104.825,
+		"danceability" : 0.581,
+		"valence" : 0.823,
+		"speechiness" : 0.0345,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 158,
@@ -2361,13 +2361,13 @@
 		"artist" : "Jake Xerxes Fussell",
 		"album" : "Out of Sight",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 129.292,
+		"danceability" : 0.519,
+		"valence" : 0.321,
+		"speechiness" : 0.034,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 159,
@@ -2376,13 +2376,13 @@
 		"artist" : "Brendan Gleeson",
 		"album" : "The Ballad of Buster Scruggs (Original Motion Picture Soundtrack)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 79.08,
+		"danceability" : 0.549,
+		"valence" : 0.442,
+		"speechiness" : 0.468,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 160,
@@ -2391,13 +2391,13 @@
 		"artist" : "Bert Jansch",
 		"album" : "Moonshine",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 179.831,
+		"danceability" : 0.444,
+		"valence" : 0.337,
+		"speechiness" : 0.0576,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 161,
@@ -2406,13 +2406,13 @@
 		"artist" : "Fleet Foxes",
 		"album" : "First Collection 2006-2009",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 102.823,
+		"danceability" : 0.454,
+		"valence" : 0.312,
+		"speechiness" : 0.0314,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 162,
@@ -2421,13 +2421,13 @@
 		"artist" : "Joan Baez",
 		"album" : "How Sweet The Sound",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 139.668,
+		"danceability" : 0.365,
+		"valence" : 0.407,
+		"speechiness" : 0.0344,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 163,
@@ -2436,13 +2436,13 @@
 		"artist" : "John Denver",
 		"album" : "A Christmas Together",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 121.829,
+		"danceability" : 0.6,
+		"valence" : 0.568,
+		"speechiness" : 0.0531,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 164,
@@ -2451,13 +2451,13 @@
 		"artist" : "John Hammond & Sr.",
 		"album" : "American Primitive - Volume 2 - Pre-war Revenants 1897-1939",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 139.882,
+		"danceability" : 0.421,
+		"valence" : 0.647,
+		"speechiness" : 0.0412,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 165,
@@ -2466,13 +2466,13 @@
 		"artist" : "Bob Dylan",
 		"album" : "The Bootleg Series Volumes 1-3 (Rare And Unreleased) 1961-1991",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 136.708,
+		"danceability" : 0.573,
+		"valence" : 0.76,
+		"speechiness" : 0.0344,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 166,
@@ -2481,13 +2481,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Birds, Beasts, Bugs and Fishes (Little and Big)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 130.484,
+		"danceability" : 0.615,
+		"valence" : 0.605,
+		"speechiness" : 0.0788,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 167,
@@ -2496,13 +2496,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Abiyoyo and Other Story Songs for Children",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 192.514,
+		"danceability" : 0.559,
+		"valence" : 0.823,
+		"speechiness" : 0.122,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 168,
@@ -2511,13 +2511,13 @@
 		"artist" : "Jean Ritchie",
 		"album" : "Mountain Hearth & Home",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 97.708,
+		"danceability" : 0.495,
+		"valence" : 0.907,
+		"speechiness" : 0.0578,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 169,
@@ -2526,13 +2526,13 @@
 		"artist" : "The Weavers",
 		"album" : "We Wish You A Merry Christmas",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 137.408,
+		"danceability" : 0.668,
+		"valence" : 0.871,
+		"speechiness" : 0.0483,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 170,
@@ -2541,13 +2541,13 @@
 		"artist" : "Elvis Presley",
 		"album" : "Frankie & Johnny",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 137.783,
+		"danceability" : 0.423,
+		"valence" : 0.725,
+		"speechiness" : 0.0581,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 171,
@@ -2556,13 +2556,13 @@
 		"artist" : "The Carter Family",
 		"album" : "The Essential Carter Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 203.064,
+		"danceability" : 0.429,
+		"valence" : 0.502,
+		"speechiness" : 0.0408,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 172,
@@ -2571,13 +2571,13 @@
 		"artist" : "Blind Lemon Jefferson",
 		"album" : "Blind Lemon Jefferson",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 81.874,
+		"danceability" : 0.521,
+		"valence" : 0.614,
+		"speechiness" : 0.0524,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 173,
@@ -2586,13 +2586,13 @@
 		"artist" : "The Byrds",
 		"album" : "Fifth Dimension",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 131.858,
+		"danceability" : 0.439,
+		"valence" : 0.549,
+		"speechiness" : 0.032,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 174,
@@ -2601,13 +2601,13 @@
 		"artist" : "Peggy Seeger",
 		"album" : "America At Play",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.88,
+		"danceability" : 0.802,
+		"valence" : 0.968,
+		"speechiness" : 0.0817,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 175,
@@ -2616,13 +2616,13 @@
 		"artist" : "The Weavers",
 		"album" : "We Wish You A Merry Christmas",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 96.007,
+		"danceability" : 0.574,
+		"valence" : 0.583,
+		"speechiness" : 0.0591,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 176,
@@ -2631,13 +2631,13 @@
 		"artist" : "Jake Xerxes Fussell",
 		"album" : "Out of Sight",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 169.912,
+		"danceability" : 0.434,
+		"valence" : 0.272,
+		"speechiness" : 0.0294,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 177,
@@ -2646,13 +2646,13 @@
 		"artist" : "Clarence Ashley",
 		"album" : "Classic Mountain Songs from Smithsonian Folkways",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.719,
+		"danceability" : 0.588,
+		"valence" : 0.912,
+		"speechiness" : 0.0296,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 178,
@@ -2661,13 +2661,13 @@
 		"artist" : "Buell Kazee",
 		"album" : "Buell Kazee Sings and Plays",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 137.68,
+		"danceability" : 0.57,
+		"valence" : 0.878,
+		"speechiness" : 0.0396,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 179,
@@ -2676,13 +2676,13 @@
 		"artist" : "The Carter Family",
 		"album" : "The Essential Carter Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 122.168,
+		"danceability" : 0.556,
+		"valence" : 0.805,
+		"speechiness" : 0.0334,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 180,
@@ -2691,13 +2691,13 @@
 		"artist" : "Doc Watson",
 		"album" : "Doc Watson",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 75.246,
+		"danceability" : 0.469,
+		"valence" : 0.583,
+		"speechiness" : 0.0361,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 181,
@@ -2706,13 +2706,13 @@
 		"artist" : "Gillian Welch",
 		"album" : "All The Good Times",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 99.41,
+		"danceability" : 0.439,
+		"valence" : 0.21,
+		"speechiness" : 0.0287,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 182,
@@ -2721,13 +2721,13 @@
 		"artist" : "The Carter Family",
 		"album" : "The Essential Carter Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 108.43,
+		"danceability" : 0.723,
+		"valence" : 0.948,
+		"speechiness" : 0.0282,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:44"
 	},
 	{
 		"id" : 183,
@@ -2736,13 +2736,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Pete Seeger: The Smithsonian Folkways Collection",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 110.434,
+		"danceability" : 0.709,
+		"valence" : 0.728,
+		"speechiness" : 0.178,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 184,
@@ -2751,13 +2751,13 @@
 		"artist" : "Ralph Stanley",
 		"album" : "The Very Best Of Ralph Stanley",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 80.012,
+		"danceability" : 0.465,
+		"valence" : 0.591,
+		"speechiness" : 0.0359,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 185,
@@ -2766,13 +2766,13 @@
 		"artist" : "The Dubliners",
 		"album" : "The Best Of The Dubliners",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 108.145,
+		"danceability" : 0.551,
+		"valence" : 0.661,
+		"speechiness" : 0.0467,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:37"
 	},
 	{
 		"id" : 186,
@@ -2781,13 +2781,13 @@
 		"artist" : "The Byrds",
 		"album" : "Fifth Dimension",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 115.99,
+		"danceability" : 0.366,
+		"valence" : 0.405,
+		"speechiness" : 0.0315,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 187,
@@ -2796,13 +2796,13 @@
 		"artist" : "The Down Hill Strugglers",
 		"album" : "Lone Prairie",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 174.493,
+		"danceability" : 0.452,
+		"valence" : 0.693,
+		"speechiness" : 0.0269,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 188,
@@ -2811,13 +2811,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "American Industrial Ballads",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 111.035,
+		"danceability" : 0.65,
+		"valence" : 0.505,
+		"speechiness" : 0.0789,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 189,
@@ -2826,13 +2826,13 @@
 		"artist" : "Frank Sinatra",
 		"album" : "A Jolly Christmas From Frank Sinatra",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 84.741,
+		"danceability" : 0.176,
+		"valence" : 0.157,
+		"speechiness" : 0.0365,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 190,
@@ -2841,13 +2841,13 @@
 		"artist" : "Jerry Bryant",
 		"album" : "Roast Beef Of Old England",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 184.75,
+		"danceability" : 0.627,
+		"valence" : 0.778,
+		"speechiness" : 0.352,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 191,
@@ -2856,13 +2856,13 @@
 		"artist" : "The Carter Family",
 		"album" : "Anthology, Vol. 1 (1929-1932)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 106.221,
+		"danceability" : 0.632,
+		"valence" : 0.148,
+		"speechiness" : 0.0305,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 192,
@@ -2871,13 +2871,13 @@
 		"artist" : "Joan Baez",
 		"album" : "Joan Baez",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 142.111,
+		"danceability" : 0.416,
+		"valence" : 0.386,
+		"speechiness" : 0.0377,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 193,
@@ -2886,13 +2886,13 @@
 		"artist" : "Glenn Miller",
 		"album" : "Pure Gold",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 94.64,
+		"danceability" : 0.666,
+		"valence" : 0.73,
+		"speechiness" : 0.278,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 194,
@@ -2901,13 +2901,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "American Favorite Ballads, Vols. 1-5 (Box Set)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 124.344,
+		"danceability" : 0.573,
+		"valence" : 0.972,
+		"speechiness" : 0.0421,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:26:26"
 	},
 	{
 		"id" : 195,
@@ -2916,13 +2916,13 @@
 		"artist" : "Luana Dias Araujo",
 		"album" : "Polly Wolly Doodle",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 85.039,
+		"danceability" : 0.41,
+		"valence" : 0.783,
+		"speechiness" : 0.0465,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 196,
@@ -2931,13 +2931,13 @@
 		"artist" : "Elvis Presley",
 		"album" : "Double Trouble",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 108.817,
+		"danceability" : 0.701,
+		"valence" : 0.951,
+		"speechiness" : 0.222,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 197,
@@ -2946,13 +2946,13 @@
 		"artist" : "Norman Blake",
 		"album" : "Whiskey Before Breakfast",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 113.903,
+		"danceability" : 0.476,
+		"valence" : 0.908,
+		"speechiness" : 0.0318,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 198,
@@ -2961,13 +2961,13 @@
 		"artist" : "Carolina Chocolate Drops",
 		"album" : "We Are the Music Makers!",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 132.717,
+		"danceability" : 0.553,
+		"valence" : 0.773,
+		"speechiness" : 0.0326,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 199,
@@ -2976,13 +2976,13 @@
 		"artist" : "Riley Puckett",
 		"album" : "Early Country Songs, Vol. 8 (Legendary Country Artists) [Recorded 1926-1939]",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 141.283,
+		"danceability" : 0.394,
+		"valence" : 0.408,
+		"speechiness" : 0.0322,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 200,
@@ -2991,13 +2991,13 @@
 		"artist" : "The Carter Family",
 		"album" : "Can The Circle Be Unbroken: Country Music's First Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 95.282,
+		"danceability" : 0.696,
+		"valence" : 0.42,
+		"speechiness" : 0.0299,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 201,
@@ -3006,13 +3006,13 @@
 		"artist" : "Paul Robeson",
 		"album" : "Paul Robeson",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 172.521,
+		"danceability" : 0.366,
+		"valence" : 0.452,
+		"speechiness" : 0.0397,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 202,
@@ -3021,13 +3021,13 @@
 		"artist" : "Joan Baez",
 		"album" : "One Day At A Time",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 91.614,
+		"danceability" : 0.577,
+		"valence" : 0.866,
+		"speechiness" : 0.0297,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 203,
@@ -3036,13 +3036,13 @@
 		"artist" : "Bessie Jones",
 		"album" : "Put Your Hand On Your Hip, And Let Your Backbone Slip: Songs And Games From The Georgia Sea Islands",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 140.655,
+		"danceability" : 0.637,
+		"valence" : 0.564,
+		"speechiness" : 0.597,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 204,
@@ -3051,13 +3051,13 @@
 		"artist" : "Vernon Dalhart",
 		"album" : "East Virginia Blues (When The Sun Goes Down Series)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 105.402,
+		"danceability" : 0.622,
+		"valence" : 0.696,
+		"speechiness" : 0.0373,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 205,
@@ -3066,13 +3066,13 @@
 		"artist" : "Crooked Still",
 		"album" : "Shaken By A Low Sound",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 112.764,
+		"danceability" : 0.618,
+		"valence" : 0.831,
+		"speechiness" : 0.0355,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 206,
@@ -3081,13 +3081,13 @@
 		"artist" : "Mother Maybelle Carter",
 		"album" : "A Living Legend",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 141.02,
+		"danceability" : 0.364,
+		"valence" : 0.48,
+		"speechiness" : 0.0285,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 207,
@@ -3096,13 +3096,13 @@
 		"artist" : "Lead Belly",
 		"album" : "Lead Belly: The Smithsonian Folkways Collection",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 145.202,
+		"danceability" : 0.415,
+		"valence" : 0.723,
+		"speechiness" : 0.0401,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 208,
@@ -3111,13 +3111,13 @@
 		"artist" : "Belle Stewart",
 		"album" : "Back O'Benachie",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 98.346,
+		"danceability" : 0.261,
+		"valence" : 0.338,
+		"speechiness" : 0.0349,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 209,
@@ -3126,13 +3126,13 @@
 		"artist" : "Open the Door for Three",
 		"album" : "The Joyful Hour",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.309,
+		"danceability" : 0.366,
+		"valence" : 0.933,
+		"speechiness" : 0.0407,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 210,
@@ -3141,13 +3141,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Midnight Special",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 118.309,
+		"danceability" : 0.523,
+		"valence" : 0.391,
+		"speechiness" : 0.0324,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 211,
@@ -3156,13 +3156,13 @@
 		"artist" : "Jascha van Nuenen",
 		"album" : "My Bonnie lies over the ocean",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 111.025,
+		"danceability" : 0.524,
+		"valence" : 0.974,
+		"speechiness" : 0.0561,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:45"
 	},
 	{
 		"id" : 212,
@@ -3171,13 +3171,13 @@
 		"artist" : "Karen Dalton",
 		"album" : "In My Own Time",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 117.267,
+		"danceability" : 0.575,
+		"valence" : 0.617,
+		"speechiness" : 0.0558,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 213,
@@ -3186,13 +3186,13 @@
 		"artist" : "Hawkshaw Hawkins",
 		"album" : "I'm A Rattlesnakin' Daddy",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 89.054,
+		"danceability" : 0.504,
+		"valence" : 0.399,
+		"speechiness" : 0.0382,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 214,
@@ -3201,13 +3201,13 @@
 		"artist" : "Mississippi John Hurt",
 		"album" : "Complete Studio Recordings",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 96.056,
+		"danceability" : 0.678,
+		"valence" : 0.855,
+		"speechiness" : 0.038,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 215,
@@ -3216,13 +3216,13 @@
 		"artist" : "Doc Watson",
 		"album" : "Doc Watson",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 114.948,
+		"danceability" : 0.598,
+		"valence" : 0.862,
+		"speechiness" : 0.0382,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 216,
@@ -3231,13 +3231,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Midnight Special",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 63.288,
+		"danceability" : 0.554,
+		"valence" : 0.544,
+		"speechiness" : 0.209,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 217,
@@ -3246,13 +3246,13 @@
 		"artist" : "Nina Simone",
 		"album" : "Wild Is The Wind",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 136.902,
+		"danceability" : 0.288,
+		"valence" : 0.125,
+		"speechiness" : 0.0443,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:18"
 	},
 	{
 		"id" : 218,
@@ -3261,13 +3261,13 @@
 		"artist" : "Mother Maybelle",
 		"album" : "The Essential Chet Atkins",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 120.168,
+		"danceability" : 0.85,
+		"valence" : 0.966,
+		"speechiness" : 0.0628,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 219,
@@ -3276,13 +3276,13 @@
 		"artist" : "Don Edwards",
 		"album" : "Saddle Songs",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 168.625,
+		"danceability" : 0.427,
+		"valence" : 0.465,
+		"speechiness" : 0.0353,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 220,
@@ -3291,13 +3291,13 @@
 		"artist" : "Furry Lewis",
 		"album" : "Furry Lewis",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 81.006,
+		"danceability" : 0.571,
+		"valence" : 0.45,
+		"speechiness" : 0.0807,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 221,
@@ -3306,13 +3306,13 @@
 		"artist" : "Buell Kazee",
 		"album" : "Buell Kazee Sings and Plays",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 142.331,
+		"danceability" : 0.565,
+		"valence" : 0.941,
+		"speechiness" : 0.0304,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 222,
@@ -3321,13 +3321,13 @@
 		"artist" : "Bradley Kincaid",
 		"album" : "Mountain Ballads and Old-Time Songs",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 100.015,
+		"danceability" : 0.623,
+		"valence" : 0.72,
+		"speechiness" : 0.0537,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 223,
@@ -3336,13 +3336,13 @@
 		"artist" : "Burl Ives",
 		"album" : "Classic Folk Music from Smithsonian Folkways Recordings",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 83.198,
+		"danceability" : 0.437,
+		"valence" : 0.343,
+		"speechiness" : 0.0453,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 224,
@@ -3351,13 +3351,13 @@
 		"artist" : "The Carter Family",
 		"album" : "Can The Circle Be Unbroken: Country Music's First Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 98.959,
+		"danceability" : 0.557,
+		"valence" : 0.648,
+		"speechiness" : 0.0372,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 225,
@@ -3366,13 +3366,13 @@
 		"artist" : "Buell Kazee",
 		"album" : "Buell Kazee Sings and Plays",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 127.041,
+		"danceability" : 0.533,
+		"valence" : 0.871,
+		"speechiness" : 0.0597,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 226,
@@ -3381,13 +3381,13 @@
 		"artist" : "Woody Guthrie",
 		"album" : "The Early Years",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 121.032,
+		"danceability" : 0.495,
+		"valence" : 0.442,
+		"speechiness" : 0.0424,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 227,
@@ -3396,13 +3396,13 @@
 		"artist" : "Doc Watson",
 		"album" : "Doc Watson",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 132.175,
+		"danceability" : 0.517,
+		"valence" : 0.896,
+		"speechiness" : 0.0403,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 228,
@@ -3411,13 +3411,13 @@
 		"artist" : "Bill Monroe & His Blue Grass Boys",
 		"album" : "Anthology",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 113.352,
+		"danceability" : 0.564,
+		"valence" : 0.697,
+		"speechiness" : 0.0336,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 229,
@@ -3426,13 +3426,13 @@
 		"artist" : "Lead Belly",
 		"album" : "The Tradition Masters: Lead Belly",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 115.352,
+		"danceability" : 0.57,
+		"valence" : 0.543,
+		"speechiness" : 0.0473,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 230,
@@ -3441,13 +3441,13 @@
 		"artist" : "Judy Garland",
 		"album" : "Meet Me In St. Louis (Original Motion Picture Soundtrack)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 122.095,
+		"danceability" : 0.638,
+		"valence" : 0.891,
+		"speechiness" : 0.0666,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:46"
 	},
 	{
 		"id" : 231,
@@ -3456,13 +3456,13 @@
 		"artist" : "Flatt & Scruggs",
 		"album" : "Foggy Mountain Banjo",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 134.624,
+		"danceability" : 0.425,
+		"valence" : 0.965,
+		"speechiness" : 0.0367,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 232,
@@ -3471,13 +3471,13 @@
 		"artist" : "Jimmie Rodgers",
 		"album" : "Country Music - A Film by Ken Burns (The Soundtrack) [Deluxe]",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 172.905,
+		"danceability" : 0.566,
+		"valence" : 0.753,
+		"speechiness" : 0.0343,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:20"
 	},
 	{
 		"id" : 233,
@@ -3486,13 +3486,13 @@
 		"artist" : "Bob Wills & Tommy Duncan with The Texas Playboys",
 		"album" : "Together Again",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 126.491,
+		"danceability" : 0.805,
+		"valence" : 0.935,
+		"speechiness" : 0.0587,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 234,
@@ -3501,13 +3501,13 @@
 		"artist" : "Mary Z. Cox",
 		"album" : "Vintage Banjo",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 112.361,
+		"danceability" : 0.55,
+		"valence" : 0.902,
+		"speechiness" : 0.045,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 235,
@@ -3516,13 +3516,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "Frontier Ballads",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 142.217,
+		"danceability" : 0.527,
+		"valence" : 0.426,
+		"speechiness" : 0.044,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 236,
@@ -3531,13 +3531,13 @@
 		"artist" : "Gene Autry",
 		"album" : "The Essential Gene Autry",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 98.781,
+		"danceability" : 0.275,
+		"valence" : 0.325,
+		"speechiness" : 0.0296,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:31"
 	},
 	{
 		"id" : 237,
@@ -3546,13 +3546,13 @@
 		"artist" : "Elizabeth Cotten",
 		"album" : "Freight Train and Other North Carolina Folk Songs and Tunes",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 142.722,
+		"danceability" : 0.366,
+		"valence" : 0.448,
+		"speechiness" : 0.0429,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 238,
@@ -3561,13 +3561,13 @@
 		"artist" : "Blind Willie Johnson",
 		"album" : "Dark Was The Night (Mojo Workin'- Blues For The Next Generation)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 188.196,
+		"danceability" : 0.557,
+		"valence" : 0.685,
+		"speechiness" : 0.0397,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 239,
@@ -3576,13 +3576,13 @@
 		"artist" : "The Kingston Trio",
 		"album" : "The Kingston Trio",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 125.74,
+		"danceability" : 0.649,
+		"valence" : 0.458,
+		"speechiness" : 0.0418,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 240,
@@ -3591,13 +3591,13 @@
 		"artist" : "Uncle Dave Macon",
 		"album" : "Country Music - A Film by Ken Burns (The Soundtrack) [Deluxe]",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 137.931,
+		"danceability" : 0.62,
+		"valence" : 0.954,
+		"speechiness" : 0.0353,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:19"
 	},
 	{
 		"id" : 241,
@@ -3606,13 +3606,13 @@
 		"artist" : "The Andrews Sisters",
 		"album" : "50th Anniversary Collection (Vol. 2)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 92.31,
+		"danceability" : 0.721,
+		"valence" : 0.574,
+		"speechiness" : 0.127,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 242,
@@ -3621,13 +3621,13 @@
 		"artist" : "Roy Acuff",
 		"album" : "The Essential Roy Acuff",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 99.425,
+		"danceability" : 0.717,
+		"valence" : 0.881,
+		"speechiness" : 0.0365,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 243,
@@ -3636,13 +3636,13 @@
 		"artist" : "Bob Dylan",
 		"album" : "The Bootleg Series Volumes 1-3 (Rare And Unreleased) 1961-1991",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 104.609,
+		"danceability" : 0.449,
+		"valence" : 0.103,
+		"speechiness" : 0.0448,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:29:21"
 	},
 	{
 		"id" : 244,
@@ -3651,13 +3651,13 @@
 		"artist" : "38th Army Band",
 		"album" : "Greatest American Marches",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 128.547,
+		"danceability" : 0.636,
+		"valence" : 0.494,
+		"speechiness" : 0.0915,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 245,
@@ -3666,13 +3666,13 @@
 		"artist" : "Pete Seeger",
 		"album" : "American Industrial Ballads",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 100.876,
+		"danceability" : 0.649,
+		"valence" : 0.71,
+		"speechiness" : 0.0604,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:40"
 	},
 	{
 		"id" : 246,
@@ -3681,13 +3681,13 @@
 		"artist" : "The Carter Family",
 		"album" : "American Epic: The Best of The Carter Family",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 106.685,
+		"danceability" : 0.714,
+		"valence" : 0.769,
+		"speechiness" : 0.032,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 247,
@@ -3696,13 +3696,13 @@
 		"artist" : "Ralph Stanley",
 		"album" : "O Brother, Where Art Thou? (Original Motion Picture Soundtrack)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 111.405,
+		"danceability" : 0.568,
+		"valence" : 0.502,
+		"speechiness" : 0.118,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:30"
 	},
 	{
 		"id" : 248,
@@ -3711,13 +3711,13 @@
 		"artist" : "Bascom Lamar Lunsford",
 		"album" : "Classic Mountain Songs from Smithsonian Folkways",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 130.591,
+		"danceability" : 0.663,
+		"valence" : 0.613,
+		"speechiness" : 0.0542,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:38"
 	},
 	{
 		"id" : 249,
@@ -3726,13 +3726,13 @@
 		"artist" : "Barbara Dane",
 		"album" : "Anthology of American Folk Songs",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 111.063,
+		"danceability" : 0.66,
+		"valence" : 0.813,
+		"speechiness" : 0.0366,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 250,
@@ -3741,13 +3741,13 @@
 		"artist" : "Aretha Franklin",
 		"album" : "Amazing Grace (Live at New Temple Missionary Baptist Church, Los Angeles, CA, 01/13/72)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 88.426,
+		"danceability" : 0.212,
+		"valence" : 0.178,
+		"speechiness" : 0.0455,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 251,
@@ -3756,13 +3756,13 @@
 		"artist" : "The Fisk Jubilee Singers",
 		"album" : "Fisk Jubilee Singers Vol. 2 (1915-1920)",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 77.906,
+		"danceability" : 0.354,
+		"valence" : 0.0848,
+		"speechiness" : 0.169,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 252,
@@ -3771,13 +3771,13 @@
 		"artist" : "The Fisk Jubilee Singers",
 		"album" : "Wade in the Water: African American Sacred Music Traditions Vol. I-IV",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 85.283,
+		"danceability" : 0.33,
+		"valence" : 0.288,
+		"speechiness" : 0.0443,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:32:47"
 	},
 	{
 		"id" : 253,
@@ -3786,13 +3786,13 @@
 		"artist" : "The Weavers",
 		"album" : "Midnight Special",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 109.113,
+		"danceability" : 0.632,
+		"valence" : 0.872,
+		"speechiness" : 0.0418,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	},
 	{
 		"id" : 254,
@@ -3801,13 +3801,13 @@
 		"artist" : "The Weavers",
 		"album" : "The Weavers Ultimate Collection",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 114.962,
+		"danceability" : 0.362,
+		"valence" : 0.425,
+		"speechiness" : 0.0393,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:29"
 	},
 	{
 		"id" : 255,
@@ -3816,13 +3816,13 @@
 		"artist" : "Gillian Welch",
 		"album" : "All The Good Times",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 166.818,
+		"danceability" : 0.421,
+		"valence" : 0.486,
+		"speechiness" : 0.0295,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:27:28"
 	},
 	{
 		"id" : 256,
@@ -3831,12 +3831,12 @@
 		"artist" : "Pete Seeger",
 		"album" : "Midnight Special",
 		"year_released" : null,
-		"tempo" : null,
-		"danceability" : null,
-		"valence" : null,
-		"speechiness" : null,
+		"tempo" : 157.664,
+		"danceability" : 0.456,
+		"valence" : 0.715,
+		"speechiness" : 0.0496,
 		"lyrics" : null,
-		"created_at" : "2023-05-11 04:27:02",
-		"updated_at" : "2023-05-11 04:27:02"
+		"created_at" : "2023-05-11 05:26:04",
+		"updated_at" : "2023-05-11 05:28:39"
 	}
 ]
