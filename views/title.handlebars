@@ -35,6 +35,17 @@
     opacity: [0, 1],
   });
 
+  animation.add({
+      targets: header,
+      scale: [
+      {value: 1.0, duration: 700},
+      {value: 1.07, duration: 300},
+      {value: 1.0, duration: 700},
+      ],
+      easing: "easeInOutQuad",
+      loop: true,
+  });
+
   // Start the animation
   animation.play();
 </script>
