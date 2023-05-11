@@ -12,7 +12,7 @@ const {
 
 /* Post Body needs to include:
     {
-      "spotify_id",
+      "spotify_id",z
       "title",
       "artist",
       "album",
@@ -51,6 +51,37 @@ router.post('/search', sessionAuth, checkSpotAuth, async (req, res) => {
   console.log(returnArray);
 
   res.status(200).json(JSON.stringify(returnArray));
+});
+
+router.post('/import-features', async (req, res) => {
+  console.log('this is working');
+  const allSongs = await Song.findAll({
+    attributes: ['spotify_id'],
+    where: {
+      tempo: null,
+    },
+  });
+  const allSpotifyIds = allSongs.map((song) => song.spotify_id);
+  console.log(allSpotifyIds);
+  for (let i = 0; i < allSpotifyIds.length; i++) {
+    let currentId = allSpotifyIds[i];
+    const songAnalysis = await spotifyApi.getAudioFeaturesForTrack(currentId);
+    console.log(songAnalysis);
+    const updateSong = Song.update(
+      {
+        tempo: songAnalysis.body.tempo,
+        danceability: songAnalysis.body.danceability,
+        valence: songAnalysis.body.valence,
+        speechiness: songAnalysis.body.speechiness,
+      },
+      {
+        where: {
+          spotify_id: currentId,
+        },
+      }
+    );
+  }
+  res.status(200).json({ message: 'This is a response.' });
 });
 
 router.delete('/:id', async (req, res) => {

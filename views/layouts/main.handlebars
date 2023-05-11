@@ -14,7 +14,16 @@
     <link href="/public/js/anime.js"/>
     <script src='https://cdn.tailwindcss.com?plugins=forms'></script>
     <script>
-      tailwind.config = { theme: { extend: { colors: { clifford: '#da373d', } }
+      tailwind.config = { 
+        theme: { 
+          fontSize: {
+            sm: ['14px', '20px'],
+            base: ['20px', '30px'],
+            lg: ['30px', '38px'],
+            xl: ['60px', '48px'],
+          }
+          extend: { 
+            colors: { clifford: '#da373d', } }
       } }
     </script>
   </head>

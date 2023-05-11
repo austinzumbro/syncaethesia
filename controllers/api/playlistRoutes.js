@@ -3,10 +3,22 @@ const { Playlist, Song, PlaylistSong } = require('../../models');
 const { spotifyAuth } = require('../../utils/spotify-auth');
 const spotifyApi = require('../../config/spotify-config');
 
+const callWithRetry = async (fn, depth = 0) => {
+  try {
+    return await fn();
+  } catch (e) {
+    if (depth > 7) {
+      throw e;
+    }
+    await wait(2 ** depth * 10);
+
+    return callWithRetry(fn, depth + 1);
+  }
+};
+
 // grab user playlists and save to database models
 router.post('/', async (req, res) => {
   try {
-    console.log('THE ROUTE IS RUNNING');
     // Get user playlists from spotify
     const playlistData = await spotifyApi.getUserPlaylists(
       req.session.spotifyId
@@ -16,11 +28,12 @@ router.post('/', async (req, res) => {
     // const playlists = await Promise.all(
     // const playlists = playlistData.body.items.map(async (playlist) => {
 
-    const playlistDataShortened = [
-      playlistData.body.items[0],
-      playlistData.body.items[1],
-      playlistData.body.items[2],
-    ];
+    const playlistDataItems = playlistData.body.items.map((item) => item);
+    let playlistDataShortened = [];
+
+    for (let i = 0; i < 2; i++) {
+      playlistDataShortened.push(playlistDataItems[i]);
+    }
 
     playlistDataShortened.forEach(async (playlist) => {
       let playlistId;
