@@ -34,7 +34,7 @@ router.get(
                 // limit: 10 , // limit # of tracks retrieved
               },
             ],
-            attributes: ['title', 'description'], // added description
+            attributes: ['id', 'title', 'description'], // added description
           },
         ],
       });
@@ -95,6 +95,7 @@ router.get('/playlists/:id', async (req, res) => {
       ],
     });
     const playlist = playlistsData.get({ plain: true });
+    console.log(playlist);
     res.render('playlist', {
       playlist: playlist,
       authorizeURL,
