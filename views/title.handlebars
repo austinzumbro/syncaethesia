@@ -1,53 +1,36 @@
+
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 <body
-  class='bg-gradient-to-r from-fuchsia-800 from-20% via-violet-800 via-50% to-indigo-800 to-80% grid h-screen place-items-center cursor-pointer handlebar'
+  class='bg-gradient-to-r from-fuchsia-800 from-20% via-violet-800 via-50% to-indigo-800 to-80% grid h-screen place-items-center cursor-pointer'
   onclick="location.href='{{authorizeURL}}';"
 >
   <h1 class='text-9xl text-center mx-auto text-amber-800 header'>SYNCaesthesia</h1>
   <script>
-  // Select the elements
-  const handlebar = document.querySelector('.handlebar');
-  const header = document.querySelector('.header');
+var textWrapper = document.querySelector('.header');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-  // Define the animation properties
-  const animation = anime.timeline({
-    duration: 700,
-    easing: 'easeOutExpo',
-  });
-
-  // Set initial state
-  animation.add({
-    targets: handlebar,
-    translateX: -300,
-    opacity: 0,
-  });
-
-  // Animate handlebar and header
-  animation.add({
-    targets: handlebar,
-    translateX: 0,
-    opacity: 1,
-  }).add({
-    targets: header,
-    translateY: [-100, 0],
+var rollOverAnimation = anime.timeline()
+  .add({
+    targets: '.header .letter',
     opacity: [0, 1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i + 1)
   });
-
-  animation.add({
-      targets: header,
-      scale: [
-      {value: 1.0, duration: 700},
-      {value: 1.07, duration: 300},
-      {value: 1.0, duration: 700},
-      ],
-      easing: "easeInOutQuad",
-      loop: true,
+  
+rollOverAnimation.finished.then(() => {
+  anime({
+    targets: '.header',
+    opacity: [1, 0.5, 1],
+    scale: [1, 1.5, 1],
+    duration: 1000,
+    easing: 'easeInOutQuad',
+    direction: 'alternate',
+    loop: true
   });
-
-  // Start the animation
-  animation.play();
+});
 </script>
 
 </body>
