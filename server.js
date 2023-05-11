@@ -7,6 +7,9 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
 
+const Handlebars = require('handlebars');
+const { readFileSync } = require('fs');
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -24,6 +27,13 @@ const sess = {
 app.use(session(sess));
 
 const hbs = exphbs.create();
+
+// Read the contents of helper.js
+const helperCode = readFileSync(path.join(__dirname, 'utils', 'helper.js'), 'utf8');
+
+// Register the helper code
+eval(helperCode);
+
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');

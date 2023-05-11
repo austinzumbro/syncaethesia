@@ -1,36 +1,28 @@
 <h2 class='text-center text-xl font-bold text-lime-500'>Dashboard</h2>
 <button id='import-playlist-button'>Import Playlist from Spotify</button>
 <button id='import-audio-analysis' class='mt-5'>Import Audio Analysis</button>
+<p>{{user.display_name}}</p>
 
 
-  <p>{{user.display_name}}</p>
-  <div class="flex flex-row box-border h-15 w-10 border-4 bg-indigo-800 hover:bg-indigo-500">
-      
-       {{#each playlists as |playlist|}}
-        <a href='/playlist'>
-          <h2 class='basis-1/3 text-3xl text-center font-semibold text-amber-500'>{{playlist.title}}</h2>
-        </a>
-  </div>
- 
 
-      <!--
-      <div
-        class='flex flex-column box-border h-2 w-3 border-4 bg-indigo-600 hover:bg-indigo-300'
-      >
-        {{#each playlist.songs as |song| }}
-          <p
-            class='text-center text-lg font-light text-sky-400'
-          >{{song.title}}</p>
-          <p
-            class=' text-center text-base font-light text-sky-500 basis-1/4'
-          >{{song.artist}}</p>
+<div class="flex flex-row space-x-10 justify-center pl-20 pr-20">
+  {{#each playlists as |playlist|}}
+    <a href='/playlist' class="basis-1/3 p-8 rounded-lg bg-indigo-800 hover:bg-indigo-500">
+      <h2 class='px-8 text-4xl text-center font-bold text-amber-500'>{{playlist.title}}</h2>
+
+      <div class="flex flex-col space-y-2">
+        {{#each (limit playlist.songs 15) as |song|}}
+          <div class="flex flex-row justify-between">
+            <p class='text-lg font-semibold text-sky-400'>{{song.title}}</p>
+            <p class='text-base font-light text-sky-500'>{{song.artist}}</p>
+          </div>
         {{/each}}
       </div>
-      -->
+    </a>
+  {{/each}}
+</div>
 
-    </div>
-  </div>
-{{/each}}
+    
 
 <div class='flex flex-row'>
   <a href='/song-search' class=''>Add a Song</a>
