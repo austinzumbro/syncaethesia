@@ -78,7 +78,6 @@ router.post(
 
 router.post('/import-features', async (req, res) => {
   try {
-    console.log('this is working');
     const allSongs = await Song.findAll({
       attributes: ['spotify_id'],
       where: {
@@ -86,19 +85,17 @@ router.post('/import-features', async (req, res) => {
       },
     });
     const allSpotifyIds = allSongs.map((song) => song.spotify_id);
-    // console.log(allSpotifyIds);
 
     async function getAudioFeaturesLoop(arrOfIds) {
       let i = 0;
       let counter = 100;
       while (i < arrOfIds.length - 1) {
         let searchArray = arrOfIds.slice(i, counter);
-        // console.log(searchArray.join(','));
 
         const songAnalysis = await spotifyApi.getAudioFeaturesForTracks(
           searchArray
         );
-
+        // console.log(songAnalysis)
         const audioFeaturesArray = songAnalysis.body.audio_features;
 
         audioFeaturesArray.forEach(async (track) => {

@@ -193,10 +193,6 @@ router.post('/', async (req, res) => {
     const playlistDataItems = playlistData.body.items.map((item) => item);
     let playlistDataShortened = [playlistDataItems[0], playlistDataItems[5]];
 
-    // for (let i = 0; i < 2; i++) {
-    //   playlistDataShortened.push(playlistDataItems[i]);
-    // }
-
     playlistDataShortened.forEach(async (playlist) => {
       let playlistId;
       // Check if the playlist already exists in the database
@@ -205,8 +201,6 @@ router.post('/', async (req, res) => {
           spotify_id: playlist.id,
         },
       });
-      // console.log('THIS IS A LOOP OF THE MAP FUNCTION');
-      // console.log(existingPlaylist);
 
       // If the playlist doesn't exist, create a new one and populate its songs
       if (!existingPlaylist) {
