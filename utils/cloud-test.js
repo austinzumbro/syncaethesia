@@ -1,9 +1,11 @@
+const dotenv = require('dotenv');
+
 async function quickstart(lyrics) {
   // Imports the Google Cloud client library
   const language = require('@google-cloud/language');
 
   // Instantiates a client
-  const client = new language.LanguageServiceClient();
+  const client = new language.LanguageServiceClient(process.env.GOOGLE_API);
 
   // The text to analyze
   const text = lyrics;
@@ -14,7 +16,7 @@ async function quickstart(lyrics) {
   };
 
   // Detects the sentiment of the text
-  const [result] = await client.analyzeSentiment({document: document});
+  const [result] = await client.analyzeSentiment({ document: document });
   const sentiment = result.documentSentiment;
 
   console.log(`Text: ${text}`);

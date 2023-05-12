@@ -4,6 +4,17 @@ const dotenv = require('dotenv');
 const { sessionAuth, checkSpotAuth } = require('../utils/spotify-auth');
 const spotifyApi = require('../config/spotify-config');
 
+const Musixmatch = require('musixmatch');
+const quickstart = require('../utils/cloud-test');
+
+const msxinit = {
+  apikey: process.env.MUSIXMATCH_KEY,
+  baseURL: 'http://api.musixmatch.com/ws/1.1/',
+  corsURL: '',
+  format: 'json',
+};
+const msx = Musixmatch(msxinit);
+
 const authorizeURL = process.env.AUTHORIZE_URL;
 
 router.get('/', async (req, res) => {
@@ -110,12 +121,48 @@ router.get('/songs/:id', async (req, res) => {
   try {
     const songData = await Song.findByPk(req.params.id);
     const song = songData.get({ plain: true });
+
+    let songLyrics = song.lyrics;
+
+    if (!song.lyrics) {
+      console.log('This if statement is running.');
+      const response = await msx.matcherLyrics({
+        q_track: song.title,
+        q_artist: song.artist,
+      });
+      const updateSong = await Song.update(
+        {
+          lyrics: response.lyrics.lyrics_body,
+        },
+        {
+          where: {
+            id: req.params.id,
+          },
+        }
+      );
+      console.log('A song was updated.');
+      console.log(updateSong);
+      songLyrics = response.lyrics.lyrics_body;
+    }
+    console.log(songLyrics);
+    let sentiment;
+    // try {
+    //   const results = await quickstart(songLyrics);
+    //   sentiment = results;
+    // } catch (err) {
+    //   throw new Error(err);
+    // }
+
+    // console.log(sentiment);
+
     res.render('song', {
       song: song,
+      sentiment: sentiment,
       authorizeURL,
       user_id: req.session.userId,
     });
   } catch (err) {
+    console.error(err);
     res.status(500).json(err);
   }
 });
