@@ -301,6 +301,12 @@ router.post('/', async (req, res) => {
     });
     res.status(200).json({ message: 'Playlists and songs imported.' });
   } catch (err) {
+    console.error(err.statusCode);
+    if (err.statusCode == 401) {
+      res.status(401).json(JSON.stringify(process.env.AUTHORIZE_URL));
+      return;
+    }
+    res.status(500).json(err);
     // Handle any errors that occur during the process
     res.status(500).json(err);
   }
