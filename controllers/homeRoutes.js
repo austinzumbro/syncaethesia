@@ -58,22 +58,37 @@ router.get(
         req.session.spotifyId = currentUser.spotify_id;
         req.session.spotAuthTok = spotifyApi._credentials.accessToken;
         req.session.spotRefTok = spotifyApi._credentials.refreshToken;
+
+        const user = currentUser.get({ plain: true });
+        console.log(user.playlists[0]);
+
+        console.log(user.spotify_id);
+
+        console.log(req.session.spotifyId);
+
+        res.render('dashboard', {
+          user: user,
+          authorizeURL,
+          playlists: user.playlists,
+          user_id: req.session.userId,
+          spotify_id: user.spotify_id,
+        });
       });
 
-      const user = currentUser.get({ plain: true });
-      console.log(user.playlists[0]);
+      // const user = currentUser.get({ plain: true });
+      // console.log(user.playlists[0]);
 
-      console.log(user.spotify_id);
+      // console.log(user.spotify_id);
 
-      console.log(req.session.spotifyId);
+      // console.log(req.session.spotifyId);
 
-      res.render('dashboard', {
-        user: user,
-        authorizeURL,
-        playlists: user.playlists,
-        user_id: req.session.userId,
-        spotify_id: user.spotify_id,
-      });
+      // res.render('dashboard', {
+      //   user: user,
+      //   authorizeURL,
+      //   playlists: user.playlists,
+      //   user_id: req.session.userId,
+      //   spotify_id: user.spotify_id,
+      // });
     } catch (err) {
       res.status(500).json(err);
     }
