@@ -191,11 +191,11 @@ router.post('/', async (req, res) => {
     // const playlists = playlistData.body.items.map(async (playlist) => {
 
     const playlistDataItems = playlistData.body.items.map((item) => item);
-    let playlistDataShortened = [];
+    let playlistDataShortened = [playlistDataItems[0], playlistDataItems[5]];
 
-    for (let i = 0; i < 2; i++) {
-      playlistDataShortened.push(playlistDataItems[i]);
-    }
+    // for (let i = 0; i < 2; i++) {
+    //   playlistDataShortened.push(playlistDataItems[i]);
+    // }
 
     playlistDataShortened.forEach(async (playlist) => {
       let playlistId;
