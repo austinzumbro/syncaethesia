@@ -9,26 +9,26 @@
 {{!-- <script src="/js/playlist-chart.js"></script> --}}
 
 <script>
-const playlistContainer = document.querySelector('#playlist-container');
-const songAttr = document.querySelectorAll('a');
+    const playlistContainer = document.querySelector('#playlist-container');
+    const songAttr = document.querySelectorAll('a');
 
-const tempoArr = [];
-const danceabilityArr = [];
-const valenceArr = [];
-const speechinessArr = [];
-const sentimentArr = [];
+    const tempoArr = [];
+    const danceabilityArr = [];
+    const valenceArr = [];
+    const speechinessArr = [];
+    const sentimentArr = [];
 
-for (let i=1; i < songAttr.length; i++) {
-    const tempo = songAttr[i].getAttribute('data-tempo');
-    const dance = songAttr[i].getAttribute('data-danceability');
-    const valence = songAttr[i].getAttribute('data-valence');
-    const speech = songAttr[i].getAttribute('data-speechiness');
+    for (let i=1; i < songAttr.length; i++) {
+        const tempo = songAttr[i].getAttribute('data-tempo');
+        const dance = songAttr[i].getAttribute('data-danceability');
+        const valence = songAttr[i].getAttribute('data-valence');
+        const speech = songAttr[i].getAttribute('data-speechiness');
 
-    tempoArr.push(tempo);
-    danceabilityArr.push(dance);
-    valenceArr.push(valence);
-    speechinessArr.push(speech);
-};
+        tempoArr.push(tempo);
+        danceabilityArr.push(dance);
+        valenceArr.push(valence);
+        speechinessArr.push(speech);
+    };
 
     const avgTempo = tempoArr.reduce((x, y) => x + y / tempoArr.length, 0)
     const avgDanceability = danceabilityArr.reduce((x, y) => x + y / danceabilityArr.length, 0)

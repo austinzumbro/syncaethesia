@@ -148,14 +148,14 @@ router.get('/songs/:id', async (req, res) => {
     }
     console.log(songLyrics);
     let sentiment;
-    // try {
-    //   const results = await quickstart(songLyrics);
-    //   sentiment = results;
-    // } catch (err) {
-    //   throw new Error(err);
-    // }
+    try {
+      const results = await quickstart(songLyrics);
+      sentiment = results;
+    } catch (err) {
+      throw new Error(err);
+    }
 
-    // console.log(sentiment);
+    console.log(sentiment);
 
     res.render('song', {
       song: song,
