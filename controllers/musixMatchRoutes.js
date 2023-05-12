@@ -1,15 +1,15 @@
 const router = require('express').Router();
 const dotenv = require('dotenv');
-const Musixmatch = require('musixmatch');
-const quickstart = require('../utils/cloud-test');
+// const Musixmatch = require('musixmatch');
+// const quickstart = require('../utils/cloud-test');
 
-const init = {
-  apikey: process.env.MUSIXMATCH_KEY,
-  baseURL: 'http://api.musixmatch.com/ws/1.1/',
-  corsURL: '',
-  format: 'json',
-};
-const msx = Musixmatch(init);
+// const init = {
+//   apikey: process.env.MUSIXMATCH_KEY,
+//   baseURL: 'http://api.musixmatch.com/ws/1.1/',
+//   corsURL: '',
+//   format: 'json',
+// };
+// const msx = Musixmatch(init);
 
 router.post('/', async (req, res) => {
   console.log(req.body);
