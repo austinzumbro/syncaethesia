@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tangential-span-386305",
+  "private_key_id": "51a6f66235923ae2e70a5d4e8b519ae4225a3cec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwXx+6WarIKgoV\nmID7Z86JKrLqcatCrsGlAjSPSI9yZNJ2r/XlGcEboBGXx+54RGkF9dUemMjWfihn\nq5xn6zgrfoIVjxIda7EbBkzu2ev3s7abRb+ShlVM18mmXmAsTG7GvNiSH5MlQJdt\nYNHd7vAI8DPCKxh66MYYcFIoQDDdzA+e9yJlEKzNf6dAiQHCUy9OmGKq2U4XSVNB\n/96XCUJsYvFBvw/ud8Nojr+468deRiMdftlynuyMdhg0PgoFdguW+F+wth/EVv73\na8vubqa1CueZhzaqBpoKAh/mzTao5KxHFSx39KyjDy8cuHbUeW1P/Ui1O9F6N3Md\nkl0GJ79ZAgMBAAECggEAN/0SgOE7Jky2I9HkTCrRdVjBMEyCTepVHbE8BypFI07f\nQv8r450P4NmpDBJTYQlyf4phK9Pbmb+1yuc/APw6OhBwcjCXUxCfSdFvtbknP9xk\ngRkcrgKH7Jtp767w/88JsXw8kfKFDyPYjkfYh4f02hmKjL6KiGYBkLuDUTTDbnzz\nHG6cQkA4tkvQjW3GgLwu9XuFsgPMgSOGZ690aMHn37Y0qa8WB7RwENFeHqy7y+O3\nF1DNKW/qrASNSJYLvbI2NYRj2PMoAM29gH5o+B+YANSGxUBlGNFA/Bj52odCU40y\nU3Ut/yKvw7JHga2olU0e8rDT3rLg2re8MdyA9clsKwKBgQD3EYavursLiNnMh5Te\nZW3GDEz1FEIrppOE3j7tkf1Us/UgN2UuIOnkEhkjctPoyfHXjlHE7OfyvBwTbIbD\nqwMc0tJIpq74mzlFK/8/w5FO9oNRZ/syXEoduE1sJjUZbYRTp0qei8+aETJZSoXS\n0RLq7dPHQIhGym0AAeE/OBFN5wKBgQC2v1buW3QN+grJyz2189us7a3owUbOm1vq\n3GTX4+Ys1m8OBPVcD+jSW+MCUzZTIyXAaeMT9zWP/2Dy58ddozpGfGcxATetrgBU\n2PEyOsSh+Bktttn4li8Y3APP0e47lBbUz5DAh3Z6SlIWXh3Eo/wWEIiH0Taxurdy\nEsfT2rhgvwKBgCb9/hqnxrNIUs9Dqov6x/tUn6SiINtQu8Fhbd8Chk+i4xHFjFNe\nYGtdK9h7W9RGYsOZM3B3zxdw9qFeJFqnF6Op5gQPQlf772rqSatfiwRCRXFIjs1g\n4VWVa6qg0QqFTTgCk/U3rXjsM90BtOMTmf+3rw+oMJmzgsZYhZr7l0eLAoGAK83P\na5D2T4dY4Kfb4epTBK9wGTOC4nEw5inv7iPNf3/i3Mxpd6jEmO+3iU4i3mi1WtrG\nuHlwGFURiwftrM88X7rgDUoKa5IiuDPMFMsraNuMRX3n34M4RNAwBbd/UD6d/mLG\ngq+1wXhhFsV2gzT/btaFs3B9mLp10F0aEvkBawcCgYAcqo5piuFh7xL8KofUfqSm\n+27ZvPQWnzx4mN+32KvXIGST2dLrb8raPEifI1IBVgTJn5qmchumpPUhCc+sQPvv\ni2HZxCzk167OXCWmG3yq+ZDWOTaK4WkdBXY3Q39cWd46cWpBwrfy4Px0XBjjln8i\nINBnFosFBkOJtJeW7GrQ3Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "syncaesthesia@tangential-span-386305.iam.gserviceaccount.com",
+  "client_id": "112588929689541158194",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/syncaesthesia%40tangential-span-386305.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

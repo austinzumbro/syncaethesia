@@ -5,7 +5,7 @@ async function quickstart(lyrics) {
   const language = require('@google-cloud/language');
 
   // Instantiates a client
-  const client = new language.LanguageServiceClient(process.env.GOOGLE_API);
+  const client = new language.LanguageServiceClient();
 
   // The text to analyze
   const text = lyrics;
