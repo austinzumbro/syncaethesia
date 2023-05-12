@@ -23,7 +23,7 @@ async function quickstart(lyrics) {
   console.log(`Sentiment score: ${sentiment.score}`);
   console.log(`Sentiment magnitude: ${sentiment.magnitude}`);
 
-  return `${sentiment.score}`;
+  return sentiment;
 }
 
 module.exports = quickstart;
