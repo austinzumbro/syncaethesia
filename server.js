@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 const sess = {
   secret: 'Not throwing away my shot',
   cookie: {
-    maxAge: 3600,
+    maxAge: 3600000,
     httpOnly: false,
     secure: false,
     sameSite: 'strict',

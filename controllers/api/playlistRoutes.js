@@ -26,7 +26,7 @@ const tryBackoff = async (apiCall, retryCount = 3, lastError = null) => {
   if (retryCount > 5) throw new Error(lastError);
   try {
     console.log('\n ----- TRYING THE API CALL ----- \n');
-    return await apiCall;
+    return await apiCall();
   } catch (err) {
     console.log("\n @@@@@@@ It didn't work, so now we wait. @@@@@@ \n");
     await delay(retryCount);
@@ -56,7 +56,7 @@ router.post('/backoff', async (req, res) => {
   };
 
   try {
-    const playlistData = await tryBackoff(getPlaylistData());
+    const playlistData = await tryBackoff(async () => getPlaylistData());
     console.log(`\n ***** These are all the User's Playlists *****\n`);
     console.log(playlistData);
     console.log(`\n **********************************************\n`);
