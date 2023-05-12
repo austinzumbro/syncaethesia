@@ -215,7 +215,7 @@ router.post('/', async (req, res) => {
           playlist_img_url: playlist.images[0]?.url,
           title: playlist.name,
           description: playlist.description,
-          user_id: req.session.userId,
+          user_id: req.body.user_id,
         });
 
         playlistId = newPlaylist.id;

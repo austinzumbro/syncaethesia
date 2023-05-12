@@ -2,6 +2,7 @@ const importPlaylistButton = document.querySelector('#import-playlist-button');
 const importAudioAnalysisButton = document.querySelector(
   '#import-audio-analysis'
 );
+const user_id = document.querySelector('#user-id-storage').dataset.user_id;
 
 const spotify_id = document.location.pathname.split('/').pop();
 console.log(spotify_id);
@@ -13,6 +14,7 @@ const importPlaylists = async () => {
     method: 'POST',
     body: JSON.stringify({
       spotify_id: spotify_id,
+      user_id: user_id,
     }),
     headers: { 'Content-Type': 'application/json' },
   });
