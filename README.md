@@ -20,10 +20,16 @@ This application reads user data from Spotify and imports their playlists. Then 
 ## Installation
     
 To install the project, navigate to the associated GitHub account and clone down the project. Run an npm i for all of the necessary technologies. Request testing authorization from one of the team members so that they can add your email to the Spotify authorization account.
+
+  ```sh
+  npm install
+  ```
     
 ## Usage
     
 To use the application, navigate to the deployed website. Authorize Spotify to connect to the application and import your playlists. The playlists should populate on the page and the user is then able to navigate through the rest of the site.
+
+![Authorizantion](./images/ScreenshotOfAuthorization.png)  ![Imported Playlists](./images/ImportedPlaylistsMeloRE.png)
     
 ## License
     
