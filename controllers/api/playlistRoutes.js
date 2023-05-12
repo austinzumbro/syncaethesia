@@ -180,9 +180,11 @@ router.post('/backoff', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     // Get user playlists from spotify
-    const playlistData = await spotifyApi.getUserPlaylists(
-      req.session.spotifyId
-    );
+    // const playlistData = await spotifyApi.getUserPlaylists(
+    //   req.session.spotifyId
+    // );
+
+    const playlistData = await spotifyApi.getUserPlaylists(req.body.spotify_id);
 
     // Map over the playlist data
     // const playlists = await Promise.all(

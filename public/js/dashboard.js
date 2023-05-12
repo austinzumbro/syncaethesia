@@ -18,7 +18,7 @@ const importPlaylists = async () => {
   });
 
   if (response.ok) {
-    document.location.reload();
+    window.location.reload();
   } else {
     alert('Playlist Import Failed!');
   }
