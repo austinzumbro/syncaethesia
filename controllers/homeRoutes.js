@@ -57,6 +57,7 @@ router.get(
         authorizeURL,
         playlists: user.playlists,
         user_id: req.session.userId,
+        spotify_id: req.session.spotifyId,
       });
     } catch (err) {
       res.status(500).json(err);
@@ -100,6 +101,7 @@ router.get('/playlists/:id', async (req, res) => {
       playlist: playlist,
       authorizeURL,
       user_id: req.session.userId,
+      spotify_id: req.session.spotifyId,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -114,6 +116,7 @@ router.get('/songs/:id', async (req, res) => {
       song: song,
       authorizeURL,
       user_id: req.session.userId,
+      spotify_id: req.session.spotifyId,
     });
   } catch (err) {
     res.status(500).json(err);

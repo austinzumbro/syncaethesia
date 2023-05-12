@@ -2,14 +2,18 @@
 <div class="flex flex-row">
     <div class="basis-1/4">
         <h3 class="text-center text-base font-semibold text-amber-500">Song Analysis</h3>
-        <ul>
-            <li class="text-center text-sm font-light text-sky-400">Tempo: <span id="tempoData">{{song.tempo}}</span></li>
-            <li class="text-center text-sm font-light text-sky-400">Danceability: <span id="danceData">{{song.danceability}}</span></li>
-            <li class="text-center text-sm font-light text-sky-400">Valence: <span id="valenceData">{{song.valence}}</span></li>
-            <li class="text-center text-sm font-light text-sky-400">Speech/Vocality: <span id="speechData">{{song.speechiness}}</span></li>
-            <li class="text-center text-sm font-light text-sky-400">Sentiment: <span id="sentimentData">{{sentiment from google cloud}}</span>{{!-- unsure
+        <div class="flex flex-row justify-between">
+            <div class="basis-1/5 text-center text-base font-light text-sky-400">Tempo: <span id="tempoData">{{song.tempo}}</span></div>
+            <div class="basis-1/5 text-center text-base font-light text-sky-400">Danceability: <span id="danceData">{{song.danceability}}</span>
+            </div>
+            <div class="basis-1/5 text-center text-base font-light text-sky-400">Valence: <span id="valenceData">{{song.valence}}</span>
+            </div>
+            <div class="basis-1/5 text-center text-base font-light text-sky-400">Speech: <span id="speechData">{{song.speechiness}}</span>
+            </div>
+        </div>
+           
+            {{!-- <li class="text-center text-sm font-light text-sky-400">Sentiment: <span id="sentimentData">{{sentiment from google cloud}}</span> --}}{{!-- unsure
                 where/what we would put here --}}</li>
-        </ul>
     </div>
     <div class="basis-3/4">
         <h3 class="text-center text-base font-semibold text-amber-500">Lyrical Analysis</h3>
