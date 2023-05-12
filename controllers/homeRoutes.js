@@ -63,12 +63,16 @@ router.get(
       const user = currentUser.get({ plain: true });
       console.log(user.playlists[0]);
 
+      console.log(user.spotify_id);
+
+      console.log(req.session.spotifyId);
+
       res.render('dashboard', {
         user: user,
         authorizeURL,
         playlists: user.playlists,
         user_id: req.session.userId,
-        spotify_id: req.session.spotifyId,
+        spotify_id: user.spotify_id,
       });
     } catch (err) {
       res.status(500).json(err);
@@ -150,11 +154,11 @@ router.get('/songs/:id', async (req, res) => {
     try {
       const results = await quickstart(songLyrics);
       sentiment = results;
+      console.log(results);
     } catch (err) {
       throw new Error(err);
     }
-
-    console.log(sentiment);
+    console.log(req.session.spotifyId);
 
     res.render('song', {
       song: song,
