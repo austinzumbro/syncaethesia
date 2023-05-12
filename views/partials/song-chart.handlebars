@@ -1,6 +1,35 @@
+<<<<<<< HEAD
+<div sytle='width: 500px;'>
+  <canvas id='SongAnalysis' aria-label='Song Reflection' role='img'>
+  </canvas>
+=======
 
 <div sytle=" width: 500px;">
     <canvas id="SongAnalysis" aria-label="Song Reflection" role="img">
     </canvas>
+>>>>>>> main
 </div>
-<script src="/js/song-chart.js"></script>
+
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+
+<script>
+const songData = document.querySelector('#song-data-section').dataset;
+console.log(songData);
+
+
+const chart = new Chart(document.getElementById('SongAnalysis'), {
+    type: 'bar',
+    data: {
+        labels: ['danceability', 'valence', 'speechiness'],
+        datasets: [
+            {
+                xAxisID: 'xAxis1',
+                data: [songData.dance, songData.valence, songData.speech],
+            },
+        ],
+    },
+    options: {
+        backgroundColor: '#32CD32',
+    },
+});
+</script>
