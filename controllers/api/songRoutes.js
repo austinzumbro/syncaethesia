@@ -53,27 +53,31 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.post('/search', sessionAuth, checkSpotAuth, async (req, res) => {
-  const songList = await spotifyApi.searchTracks(
-    `track:${req.body.track} artist:${req.body.artist}`
-  );
+router.post(
+  '/search',
+  //sessionAuth,
+  checkSpotAuth,
+  async (req, res) => {
+    const songList = await spotifyApi.searchTracks(
+      `track:${req.body.track} artist:${req.body.artist}`
+    );
 
-  // Go through the first page of results
-  const firstPage = songList.body.tracks.items;
+    // Go through the first page of results
+    const firstPage = songList.body.tracks.items;
 
-  let returnArray = [];
+    let returnArray = [];
 
-  firstPage.forEach(function (track, index) {
-    returnArray.push(track);
-  });
-  console.log(returnArray);
+    firstPage.forEach(function (track, index) {
+      returnArray.push(track);
+    });
+    console.log(returnArray);
 
-  res.status(200).json(JSON.stringify(returnArray));
-});
+    res.status(200).json(JSON.stringify(returnArray));
+  }
+);
 
 router.post('/import-features', async (req, res) => {
   try {
-    console.log('this is working');
     const allSongs = await Song.findAll({
       attributes: ['spotify_id'],
       where: {
@@ -81,19 +85,17 @@ router.post('/import-features', async (req, res) => {
       },
     });
     const allSpotifyIds = allSongs.map((song) => song.spotify_id);
-    // console.log(allSpotifyIds);
 
     async function getAudioFeaturesLoop(arrOfIds) {
       let i = 0;
       let counter = 100;
       while (i < arrOfIds.length - 1) {
         let searchArray = arrOfIds.slice(i, counter);
-        // console.log(searchArray.join(','));
 
         const songAnalysis = await spotifyApi.getAudioFeaturesForTracks(
           searchArray
         );
-
+        // console.log(songAnalysis)
         const audioFeaturesArray = songAnalysis.body.audio_features;
 
         audioFeaturesArray.forEach(async (track) => {

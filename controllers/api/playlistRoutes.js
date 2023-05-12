@@ -26,7 +26,7 @@ const tryBackoff = async (apiCall, retryCount = 3, lastError = null) => {
   if (retryCount > 5) throw new Error(lastError);
   try {
     console.log('\n ----- TRYING THE API CALL ----- \n');
-    return await apiCall;
+    return await apiCall();
   } catch (err) {
     console.log("\n @@@@@@@ It didn't work, so now we wait. @@@@@@ \n");
     await delay(retryCount);
@@ -56,7 +56,7 @@ router.post('/backoff', async (req, res) => {
   };
 
   try {
-    const playlistData = await tryBackoff(getPlaylistData());
+    const playlistData = await tryBackoff(async () => getPlaylistData());
     console.log(`\n ***** These are all the User's Playlists *****\n`);
     console.log(playlistData);
     console.log(`\n **********************************************\n`);
@@ -180,20 +180,18 @@ router.post('/backoff', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     // Get user playlists from spotify
-    const playlistData = await spotifyApi.getUserPlaylists(
-      req.session.spotifyId
-    );
+    // const playlistData = await spotifyApi.getUserPlaylists(
+    //   req.session.spotifyId
+    // );
+
+    const playlistData = await spotifyApi.getUserPlaylists(req.body.spotify_id);
 
     // Map over the playlist data
     // const playlists = await Promise.all(
     // const playlists = playlistData.body.items.map(async (playlist) => {
 
     const playlistDataItems = playlistData.body.items.map((item) => item);
-    let playlistDataShortened = [];
-
-    for (let i = 0; i < 2; i++) {
-      playlistDataShortened.push(playlistDataItems[i]);
-    }
+    let playlistDataShortened = [playlistDataItems[0], playlistDataItems[5]];
 
     playlistDataShortened.forEach(async (playlist) => {
       let playlistId;
@@ -203,8 +201,6 @@ router.post('/', async (req, res) => {
           spotify_id: playlist.id,
         },
       });
-      // console.log('THIS IS A LOOP OF THE MAP FUNCTION');
-      // console.log(existingPlaylist);
 
       // If the playlist doesn't exist, create a new one and populate its songs
       if (!existingPlaylist) {
@@ -213,7 +209,7 @@ router.post('/', async (req, res) => {
           playlist_img_url: playlist.images[0]?.url,
           title: playlist.name,
           description: playlist.description,
-          user_id: req.session.userId,
+          user_id: req.body.user_id,
         });
 
         playlistId = newPlaylist.id;
@@ -301,6 +297,12 @@ router.post('/', async (req, res) => {
     });
     res.status(200).json({ message: 'Playlists and songs imported.' });
   } catch (err) {
+    console.error(err.statusCode);
+    if (err.statusCode == 401) {
+      res.status(401).json(JSON.stringify(process.env.AUTHORIZE_URL));
+      return;
+    }
+    res.status(500).json(err);
     // Handle any errors that occur during the process
     res.status(500).json(err);
   }

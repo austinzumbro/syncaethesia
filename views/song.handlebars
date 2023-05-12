@@ -2,7 +2,14 @@
 <div class="flex flex-row">
     <div class="basis-1/4">
         <h3 class="text-center text-base font-semibold text-amber-500">Song Analysis</h3>
-        <div id="song-data-section" class="flex flex-col gap-2" data-tempo="{{song.tempo}}" data-dance="{{song.danceability}}" data-valence="{{song.valence}}" data-speech="{{song.speechiness}}" data-sentimentscore="{{sentiment.score}}" data-sentimentmag="{{sentiment.magnitude}}">
+        <div id="song-data-section" class="flex flex-col gap-2" 
+        data-tempo="{{song.tempo}}" 
+        data-dance="{{song.danceability}}" 
+        data-valence="{{song.valence}}" 
+        data-speech="{{song.speechiness}}" 
+        data-sentimentscore="{{sentiment.score}}" 
+        data-sentimentmag="{{sentiment.magnitude}}">
+        
             <div class="text-center text-base font-light text-sky-400">Tempo: <span id="tempoData">{{song.tempo}}</span></div>
             <div class="text-center text-base font-light text-sky-400">Danceability: <span id="danceData">{{song.danceability}}</span>
             </div>
