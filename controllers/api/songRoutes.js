@@ -53,23 +53,28 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.post('/search', sessionAuth, checkSpotAuth, async (req, res) => {
-  const songList = await spotifyApi.searchTracks(
-    `track:${req.body.track} artist:${req.body.artist}`
-  );
+router.post(
+  '/search',
+  //sessionAuth,
+  checkSpotAuth,
+  async (req, res) => {
+    const songList = await spotifyApi.searchTracks(
+      `track:${req.body.track} artist:${req.body.artist}`
+    );
 
-  // Go through the first page of results
-  const firstPage = songList.body.tracks.items;
+    // Go through the first page of results
+    const firstPage = songList.body.tracks.items;
 
-  let returnArray = [];
+    let returnArray = [];
 
-  firstPage.forEach(function (track, index) {
-    returnArray.push(track);
-  });
-  console.log(returnArray);
+    firstPage.forEach(function (track, index) {
+      returnArray.push(track);
+    });
+    console.log(returnArray);
 
-  res.status(200).json(JSON.stringify(returnArray));
-});
+    res.status(200).json(JSON.stringify(returnArray));
+  }
+);
 
 router.post('/import-features', async (req, res) => {
   try {

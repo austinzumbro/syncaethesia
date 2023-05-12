@@ -27,7 +27,7 @@ router.get('/playlists', async (req, res) => {
 
 router.get(
   '/dashboard/:spotify_id',
-  sessionAuth,
+  // sessionAuth,
   checkSpotAuth,
   async (req, res) => {
     try {
@@ -97,9 +97,14 @@ router.get('/spotify-test', (req, res) => {
   res.render('homepage', { layout: 'spotify-test' });
 });
 
-router.get('/song-search', sessionAuth, checkSpotAuth, (req, res) => {
-  res.render('song-search', { authorizeURL });
-});
+router.get(
+  '/song-search',
+  //sessionAuth,
+  checkSpotAuth,
+  (req, res) => {
+    res.render('song-search', { authorizeURL });
+  }
+);
 
 router.get('/playlists/:id', async (req, res) => {
   try {
