@@ -127,7 +127,6 @@ router.get('/songs/:id', async (req, res) => {
     let songLyrics = song.lyrics;
 
     if (!song.lyrics) {
-      console.log('This if statement is running.');
       const response = await msx.matcherLyrics({
         q_track: song.title,
         q_artist: song.artist,
