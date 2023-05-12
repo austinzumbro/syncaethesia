@@ -1,4 +1,5 @@
 import Chart from 'chart.js/auto';
+
 const tempoData = document.querySelector("#tempoData");
 const danceData = document.querySelector("#danceData");
 const valenceData = document.querySelector("#valenceData");
@@ -15,6 +16,9 @@ const chart = new Chart(document.getElementById("SongAnalysis"), {
     }]
   },
   options: {
-    backgroundColor: '#32CD32'
+    backgroundColor: '#32CD32',
+    y: {
+      beginAtZero: true
+    }
   }
 });
