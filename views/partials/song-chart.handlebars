@@ -1,7 +1,13 @@
 
-<div sytle=" width: 500px;">
+<div>
+    <h3 class="text-center text-base font-semibold text-amber-500">RE:flection</h3>
     <canvas id="SongAnalysis" aria-label="Song Reflection" role="img">
     </canvas>
+    <h3 class="text-center text-base font-semibold text-amber-500">LyRE:cal Analysis</h3>
+    <canvas id="LyricalAnalysis" aria-label="Song Reflection" role="img">
+    </canvas>
+
+
 </div>
 
 <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
@@ -24,6 +30,46 @@ const chart = new Chart(document.getElementById('SongAnalysis'), {
     },
     options: {
         backgroundColor: '#32CD32',
+        responsive: true
+    },
+});
+
+const data = {
+  labels: [
+    'Danceability',
+    'Valence (Happiness)',
+    'Speechiness',
+    'Sentiment',
+  ],
+  datasets: [{
+    label: 'Radar RE:flection',
+    data: [songData.dance, songData.valence, songData.speech, songData.sentimentscore],
+    fill: true,
+    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+    borderColor: 'rgb(255, 99, 132)',
+    pointBackgroundColor: 'rgb(255, 99, 132)',
+    pointBorderColor: '#fff',
+    pointHoverBackgroundColor: '#fff',
+    pointHoverBorderColor: 'rgb(255, 99, 132)'
+  }],
+};
+
+const radar = new Chart(document.getElementById('LyricalAnalysis'), {
+    type: 'radar',
+    data: data,
+    options: {
+        elements: {
+            line: {
+                borderWidth: 3
+            }
+        },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    fontColor: '#000'
+                }
+            }]
+        }
     },
 });
 </script>
