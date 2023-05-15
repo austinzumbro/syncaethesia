@@ -29,7 +29,11 @@ const checkSpotAuth = async (req, res, next) => {
   const accessToken = spotifyApi._credentials.accessToken;
   const refreshToken = spotifyApi._credentials.refreshToken;
   if (!accessToken || !refreshToken) {
-    res.redirect(process.env.AUTHORIZE_URL);
+    res.redirect(
+      process.env.AUTHORIZE_URL_HEROKU
+        ? process.env.AUTHORIZE_URL_HEROKU
+        : process.env.AUTHORIZE_URL
+    );
     return;
   } else {
     next();

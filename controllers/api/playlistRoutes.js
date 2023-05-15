@@ -169,7 +169,15 @@ router.post('/backoff', async (req, res) => {
   } catch (err) {
     console.error(err.statusCode);
     if (err.statusCode == 401) {
-      res.status(401).json(JSON.stringify(process.env.AUTHORIZE_URL));
+      res
+        .status(401)
+        .json(
+          JSON.stringify(
+            process.env.AUTHORIZE_URL_HEROKU
+              ? process.env.AUTHORIZE_URL_HEROKU
+              : process.env.AUTHORIZE_URL
+          )
+        );
       return;
     }
     res.status(500).json(err);
@@ -289,7 +297,11 @@ router.post('/', async (req, res) => {
         } catch (err) {
           console.error(err);
           if (err.body.error.status == 401) {
-            res.redirect(process.env.AUTHORIZE_URL);
+            res.redirect(
+              process.env.AUTHORIZE_URL_HEROKU
+                ? process.env.AUTHORIZE_URL_HEROKU
+                : process.env.AUTHORIZE_URL
+            );
           }
           return;
         }
@@ -299,7 +311,15 @@ router.post('/', async (req, res) => {
   } catch (err) {
     console.error(err.statusCode);
     if (err.statusCode == 401) {
-      res.status(401).json(JSON.stringify(process.env.AUTHORIZE_URL));
+      res
+        .status(401)
+        .json(
+          JSON.stringify(
+            process.env.AUTHORIZE_URL_HEROKU
+              ? process.env.AUTHORIZE_URL_HEROKU
+              : process.env.AUTHORIZE_URL
+          )
+        );
       return;
     }
     res.status(500).json(err);

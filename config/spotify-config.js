@@ -4,8 +4,9 @@ const dotenv = require('dotenv');
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.SPOT_CLIENT_ID,
   clientSecret: process.env.SPOT_CLIENT_SECRET,
-  redirectUri: 'https://melore.herokuapp.com/spotify/callback',
-  //redirectUri: 'http://localhost:3001/spotify/callback',
+  redirectUri: process.env.CALLBACK_URL_HEROKU
+    ? process.env.CALLBACK_URL_HEROKU
+    : process.env.CALLBACK_URL,
 });
 
 module.exports = spotifyApi;

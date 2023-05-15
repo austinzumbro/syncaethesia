@@ -29,17 +29,6 @@ const scopes = [
   'user-read-recently-played',
   'playlist-read-private',
 ];
-//state = 'stupid';
-
-// router.get('/', async (req, res) => {
-//   try {
-//     res.render('homepage', { authorizeURL });
-//   } catch (err) {
-//     res.status(400).json(err);
-//   }
-// });
-
-const authorizeURL = process.env.AUTHORIZE_URL;
 
 router.get('/callback', spotifyAuth, async (req, res) => {
   const currentUser = await spotifyApi.getMe();

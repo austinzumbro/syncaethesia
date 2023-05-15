@@ -15,7 +15,9 @@ const msxinit = {
 };
 const msx = Musixmatch(msxinit);
 
-const authorizeURL = process.env.AUTHORIZE_URL;
+const authorizeURL = process.env.AUTHORIZE_URL_HEROKU
+  ? process.env.AUTHORIZE_URL_HEROKU
+  : process.env.AUTHORIZE_URL;
 
 router.get('/', async (req, res) => {
   res.render('title', { authorizeURL, layout: 'title-screen' });
